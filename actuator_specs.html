@@ -125,13 +125,37 @@
     <!-- ======= Product Details Section ======= -->
     <section id="product-details" class="portfolio-details">
       <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Wireless Inertial Measurement Unit (IMU)</h2>
-          <div id="product-image-container">
-              <img id="product-image" src="" alt="Actuator Image">
+  
+          <div class="section-title text-center">
+              <h2>Wireless Inertial Measurement Unit (IMU)</h2>
           </div>
-          <h4 class="specs-title">Specifications</h4>
+  
+          <div class="product-container text-center">
+            <div class="product-container text-center">
+              <div id="product-image-container">
+                  <img id="product-image" src="" alt="Actuator Image">
+              </div>
+          
+              <div class="product-info">
+                  <div id="product-price"></div>
+                  <div id="description"></div>
+                  <div id="quote-button">
+                    <div class="quantity-container">
+                        <span class="quantity" id="quantity-display">1</span>
+                        <div class="quantity-controls">
+                            <button class="control-button" id="increase-btn">+</button>
+                            <button class="control-button" id="decrease-btn">-</button>
+                        </div>
+                    </div>
+                    <button class="quote-button">Get a Quote</button>
+                </div>                
+                
+                </div>
+              </div>
+          </div>          
+          </div>
+  
+          <h4 class="specs-title text-center">Specifications</h4>
           <div class="spec-table">
               <div class="left-col">
                   <table id="left-specs-table" class="text-center"></table>
@@ -140,11 +164,9 @@
                   <table id="right-specs-table" class="text-center"></table>
               </div>
           </div>
-      </div>      
-      
       </div>
-
-    </section><!-- End product Details Section -->
+  </section>
+  <!-- End product Details Section -->
 
   </main><!-- End #main -->
 
@@ -237,6 +259,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/retrieve_data.js"></script>
+  <script src="assets/js/cart_handler.js"></script>
   <script>
       const filepath = 'assets/specdata/AK70-10.json'; // Replace with the actual path to your JSON file
       fetchData(filepath);

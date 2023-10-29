@@ -13,8 +13,20 @@ async function fetchData(filepath) {
         // Calculate 1/3rd of the total screen width
         const oneThirdScreenWidth = window.innerWidth / 3;
 
+
         // Set width of the image to 1/3rd of the total screen width
         productImage.style.width = `${oneThirdScreenWidth}px`;
+
+        // Set product price
+        const productPriceElement = document.getElementById('product-price');
+        productPriceElement.textContent = data.price;
+        productPriceElement.innerHTML = `<strong>Price:</strong> $500`;
+        productPriceElement.style.color = '#1ed33c'; //FIXME: query from CSS instead of hardcoding
+        productPriceElement.style.fontSize = 'larger';
+
+        // Set product description
+        const productDescriptionElement = document.getElementById('description');
+        productDescriptionElement.textContent = data.description;
 
         // Populate specifications dynamically
         const specifications = data.specifications;

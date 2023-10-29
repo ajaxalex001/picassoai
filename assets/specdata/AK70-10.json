@@ -1,5 +1,7 @@
 {
     "title": "AK70-10",
+    "price": 500,
+    "description": "Linear actuator",
     "image": "assets/img/products/AK70-10.jpg",
     "specifications": {
         "Type": "Linear Actuator",

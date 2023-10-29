@@ -2329,4 +2329,92 @@ section {
     text-align: left; /* Left align text in the second column */
 }
 
+.text-center {
+  text-align: center;
+}
 
+.product-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Reduce spacing between image and shopping cart to 5px */
+#product-image-container {
+  margin-right: 10px;
+}
+
+#product-image-container {
+  margin-right: 20px;
+  vertical-align: top; /* Align the top of the image with adjacent elements */
+}
+
+#product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#product-price {
+  text-align: left;
+  margin-top: 10px; /* Optional: Add some top margin for spacing */
+}
+
+#description {
+  text-align: left;
+  margin-top: 10px; /* Optional: Add some top margin for spacing */
+}
+
+.top-left-align {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+#quote-button {
+  display: flex;
+  align-items: center;
+}
+
+/* Quote Button and Quantity Box Styles */
+.quantity-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  padding: 5px 10px; /* Adjust padding for the width of the box */
+  border-radius: 5px;
+}
+
+.quantity {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.quantity-controls {
+  display: flex;
+}
+
+.control-button {
+  background-color: #ccc;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px; /* Add spacing between buttons */
+  border-radius: 3px;
+  cursor: pointer;
+
+  /* Center the content vertically */
+  display: flex;
+  align-items: center;
+}
+
+.quote-button {
+  background-color: #1ed33c;
+  color: white;
+  border: none;
+  padding: 5px 20px; /* Adjust padding for the height of the button */
+  border-radius: 5px;
+  cursor: pointer;
+}
