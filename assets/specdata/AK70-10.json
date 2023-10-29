@@ -1,0 +1,10 @@
+{
+    "title": "AK70-10",
+    "image": "assets/img/products/AK70-10.jpg",
+    "specifications": {
+        "Type": "Linear Actuator",
+        "Voltage": "12V DC",
+        "Force": "1000 N",
+        "Speed": "10 mm/s"
+    }
+}
