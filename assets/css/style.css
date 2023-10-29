@@ -2280,3 +2280,53 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.specs-title {
+  margin-top: 30px; 
+  margin-bottom: 20px; 
+}
+
+/* Add more white space around the specifications title and table */
+.specs-title {
+  margin-top: 30px; /* Adjust the top margin as needed */
+  margin-bottom: 20px; /* Adjust the bottom margin as needed */
+}
+
+.green-text {
+  color: #1ed33c;
+}
+
+/* Remove table divider lines */
+#spec-details table,
+#spec-details th,
+#spec-details td,
+#spec-details tr {
+    border: 0;
+    padding: 10px; /* Add padding inside table cells */
+    line-height: 1; /* Adjust the spacing between rows as needed */
+}
+
+.spec-table {
+  display: flex;
+}
+
+.left-col,
+.right-col {
+  flex: 1;
+}
+#left-specs-table td:first-child,
+#right-specs-table td:first-child {
+    text-align: right; /* Right align text in the first column */
+}
+
+#left-specs-table td,
+#right-specs-table td {
+    padding: 8px 12px;
+}
+
+#left-specs-table td:last-child,
+#right-specs-table td:last-child {
+    text-align: left; /* Left align text in the second column */
+}
+
+

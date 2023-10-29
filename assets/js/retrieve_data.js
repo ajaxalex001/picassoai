@@ -7,20 +7,38 @@ async function fetchData(filepath) {
         document.querySelector('.section-title h2').textContent = data.title;
 
         // Set product image
-        document.getElementById('product-image').src = data.image;
+        const productImage = document.getElementById('product-image');
+        productImage.src = data.image;
+
+        // Calculate 1/3rd of the total screen width
+        const oneThirdScreenWidth = window.innerWidth / 3;
+
+        // Set width of the image to 1/3rd of the total screen width
+        productImage.style.width = `${oneThirdScreenWidth}px`;
 
         // Populate specifications dynamically
         const specifications = data.specifications;
-        let specHTML = '<h7><table border="1" width="650" height="550" class="text-center"><caption></caption><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody>';
+        let leftSpecsHTML = '<tr><th class="green-text"></tr>';
+        let rightSpecsHTML = '<tr><th class="green-text"></tr>';
 
+        let isLeftColumn = true;
         for (const spec in specifications) {
-            specHTML += `<tr><td>${spec}</td><td>${specifications[spec]}</td></tr>`;
+            // Apply green-text class to property labels for green color
+            const specHTML = `<tr><td class="green-text">${spec}</td><td>${specifications[spec]}</td></tr>`;
+
+            if (isLeftColumn) {
+                leftSpecsHTML += specHTML;
+            } else {
+                rightSpecsHTML += specHTML;
+            }
+
+            // Toggle the column
+            isLeftColumn = !isLeftColumn;
         }
 
-        specHTML += '</tbody></table></h7>';
-
-        // Display specifications
-        document.getElementById('spec-details').innerHTML = specHTML;
+        // Display specifications in the respective columns
+        document.getElementById('left-specs-table').innerHTML = leftSpecsHTML;
+        document.getElementById('right-specs-table').innerHTML = rightSpecsHTML;
     } catch (error) {
         console.error('Error fetching or displaying product data:', error);
     }
