@@ -8,6 +8,7 @@ fetch('header.html')
         const currentPage = currentPageFull.substring(currentPageFull.lastIndexOf('/') + 1);
 
         // List of menu items with their corresponding URLs
+        // TODO: fold in all product pages
         const menuItems = {
             'index.html': 'index.html',
             'about.html': ['about.html', 'team.html'],
