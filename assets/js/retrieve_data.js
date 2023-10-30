@@ -30,22 +30,21 @@ async function fetchData(filepath) {
 
         // Populate specifications dynamically
         const specifications = data.specifications;
+        const specificationsCount = Object.keys(specifications).length;
         let leftSpecsHTML = '<tr><th class="green-text"></tr>';
         let rightSpecsHTML = '<tr><th class="green-text"></tr>';
 
-        let isLeftColumn = true;
+        let count = 0;
         for (const spec in specifications) {
             // Apply green-text class to property labels for green color
             const specHTML = `<tr><td class="green-text">${spec}</td><td>${specifications[spec]}</td></tr>`;
 
-            if (isLeftColumn) {
+            if (count < specificationsCount / 2) {
                 leftSpecsHTML += specHTML;
             } else {
                 rightSpecsHTML += specHTML;
             }
-
-            // Toggle the column
-            isLeftColumn = !isLeftColumn;
+            count++;
         }
 
         // Display specifications in the respective columns
