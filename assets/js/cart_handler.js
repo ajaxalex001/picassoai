@@ -2,6 +2,10 @@
 const quantityDisplay = document.getElementById('quantity-display');
 const increaseBtn = document.getElementById('increase-btn');
 const decreaseBtn = document.getElementById('decrease-btn');
+const quoteBtn = document.getElementById('quote-btn');
+//TODO: get product name from document
+//TODO: get client email address
+const productName = 'Product Name';
 
 // Initial quantity value
 let quantity = 1;
@@ -23,4 +27,8 @@ decreaseBtn.addEventListener('click', function() {
     // Decrease the quantity but ensure it doesn't go below 1
     quantity = Math.max(quantity - 1, 1);
     updateQuantity();
+});
+
+quoteBtn.addEventListener('click', function() { 
+    
 });
