@@ -2281,6 +2281,144 @@ section {
   text-decoration: none;
 }
 
+.specs-title {
+  margin-top: 30px; 
+  margin-bottom: 20px; 
+}
+
+/* Add more white space around the specifications title and table */
+.specs-title {
+  margin-top: 30px; /* Adjust the top margin as needed */
+  margin-bottom: 20px; /* Adjust the bottom margin as needed */
+}
+
+.green-text {
+  color: #1ed33c;
+}
+
+/* Remove table divider lines */
+#spec-details table,
+#spec-details th,
+#spec-details td,
+#spec-details tr {
+    border: 0;
+    padding: 10px; /* Add padding inside table cells */
+    line-height: 1; /* Adjust the spacing between rows as needed */
+}
+
+.spec-table {
+  display: flex;
+}
+
+.left-col,
+.right-col {
+  flex: 1;
+}
+#left-specs-table td:first-child,
+#right-specs-table td:first-child {
+    text-align: right; /* Right align text in the first column */
+}
+
+#left-specs-table td,
+#right-specs-table td {
+    padding: 8px 12px;
+}
+
+#left-specs-table td:last-child,
+#right-specs-table td:last-child {
+    text-align: left; /* Left align text in the second column */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.product-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Reduce spacing between image and shopping cart to 5px */
+#product-image-container {
+  margin-right: 10px;
+}
+
+#product-image-container {
+  margin-right: 20px;
+  vertical-align: top; /* Align the top of the image with adjacent elements */
+}
+
+#product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#product-price {
+  text-align: left;
+  margin-top: 10px; /* Optional: Add some top margin for spacing */
+}
+
+#description {
+  text-align: left;
+  margin-top: 10px; /* Optional: Add some top margin for spacing */
+}
+
+.top-left-align {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+#quote-button {
+  display: flex;
+  align-items: center;
+}
+
+/* Quote Button and Quantity Box Styles */
+.quantity-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  padding: 5px 10px; /* Adjust padding for the width of the box */
+  border-radius: 5px;
+}
+
+.quantity {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.quantity-controls {
+  display: flex;
+}
+
+.control-button {
+  background-color: #ccc;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px; /* Add spacing between buttons */
+  border-radius: 3px;
+  cursor: pointer;
+
+  /* Center the content vertically */
+  display: flex;
+  align-items: center;
+}
+
+.quote-button {
+  background-color: #1ed33c;
+  color: white;
+  border: none;
+  padding: 5px 20px; /* Adjust padding for the height of the button */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .centered-image {
   text-align: center;
 }
