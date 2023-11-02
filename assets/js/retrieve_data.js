@@ -1,6 +1,11 @@
-async function fetchData(filepath) {
+async function fetchData() {
     try {
-        const response = await fetch(filepath);
+        // Get the value of the fileName parameter from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const fileName = urlParams.get('fileName');
+        const filePath = `assets/specdata/${fileName}`;
+
+        const response = await fetch(filePath);
         const data = await response.json();
 
         // Set product title
@@ -54,3 +59,5 @@ async function fetchData(filepath) {
         console.error('Error fetching or displaying product data:', error);
     }
 }
+
+fetchData();
