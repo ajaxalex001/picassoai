@@ -4,7 +4,8 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-!(function($) {
+function main() {
+// !(function($){ 
   "use strict";
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
@@ -108,7 +109,9 @@
   });
 
   // Porfolio isotope and filter
-  $(window).on('load', function() {
+  // $(window).on('load', function() {
+    // console.log(document.documentElement.outerHTML)
+    console.log('hi2')
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item'
     });
@@ -127,7 +130,7 @@
     $(document).ready(function() {
       $('.venobox').venobox();
     });
-  });
+  // });
 
   // Skills section
   $('.skills-content').waypoint(function() {
@@ -155,4 +158,5 @@
   }
   aos_init();
 
-})(jQuery);
+}//)(jQuery);
+main();
