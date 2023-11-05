@@ -74,6 +74,6 @@ async function fetchAndGenerateHTML() {
 }
 fetchAndGenerateHTML();
 
-// window.addEventListener('load',  (event) => {
-//     fetchAndGenerateHTML(); 
-// });
+window.addEventListener('load',  (event) => {
+    fetchAndGenerateHTML(); 
+});
