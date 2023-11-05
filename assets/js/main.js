@@ -127,6 +127,8 @@
     $(document).ready(function() {
       $('.venobox').venobox();
     });
+
+    console.log('in main.js')
   // });
 
   // Skills section
