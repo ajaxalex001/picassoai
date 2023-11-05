@@ -72,7 +72,6 @@ async function fetchAndGenerateHTML() {
         loadingSpinner.style.display = 'none'; // Hide the loading spinner in case of an error
     }
 }
-fetchAndGenerateHTML();
 
 window.addEventListener('load',  (event) => {
     fetchAndGenerateHTML(); 
