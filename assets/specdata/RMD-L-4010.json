@@ -3,7 +3,7 @@
     "price": -1,
     "stock": 300,
     "description": "[INSERT DESCRIPTION]",
-    "blurb": "Operating temp: -20°C~50°C\nVoltage: 24/48 V\n12bit high resolution magnetic encoder",
+    "blurb": "Operating temp: -20°C~80°C<br>Voltage: 8-24 V<br>14bit high resolution magnetic encoder<br>",
     "image": "assets/img/products/RMD-L-4010.png",
     "specifications": {
         "Operating temp": "-20°C~50°C",
