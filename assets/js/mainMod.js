@@ -1,3 +1,5 @@
+
+//TODO: remove duplication between this and main.js (only thing that is changed is the onWindowLoad)
 /**
 * Template Name: Company - v2.0.1
 * Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
@@ -127,8 +129,6 @@
     $(document).ready(function() {
       $('.venobox').venobox();
     });
-
-    console.log('in main.js')
   // });
 
   // Skills section

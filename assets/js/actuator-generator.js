@@ -59,9 +59,7 @@ async function fetchAndGenerateHTML() {
             });
         });
     
-        console.log('awaiting product load')
         await Promise.all(animationFramePromises);
-        console.log('product load finished')
         const scriptTag = document.createElement('script');
         scriptTag.src = 'assets/js/mainMod.js';
         document.body.appendChild(scriptTag);
