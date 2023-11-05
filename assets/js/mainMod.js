@@ -108,7 +108,7 @@
   });
 
   // Porfolio isotope and filter
-  $(window).on('load', function() { // NOTE: commented out because this script is now run after acutator-generator.js and does not need to wait for the window to load
+  // $(window).on('load', function() { // NOTE: commented out because this script is now run after acutator-generator.js and does not need to wait for the window to load
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item'
     });
@@ -129,7 +129,7 @@
     });
 
     console.log('in main.js')
-  });
+  // });
 
   // Skills section
   $('.skills-content').waypoint(function() {

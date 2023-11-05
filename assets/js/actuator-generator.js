@@ -63,7 +63,7 @@ async function fetchAndGenerateHTML() {
         await Promise.all(animationFramePromises);
         console.log('product load finished')
         const scriptTag = document.createElement('script');
-        scriptTag.src = 'assets/js/main.js';
+        scriptTag.src = 'assets/js/mainMod.js';
         document.body.appendChild(scriptTag);
         
         loadingSpinner.style.display = 'none'; // Hide the loading spinner after content is loaded
@@ -74,5 +74,6 @@ async function fetchAndGenerateHTML() {
 }
 
 window.addEventListener('load',  (event) => {
-    fetchAndGenerateHTML(); 
+    fetchAndGenerateHTML().then(() => {
+    }); 
 });
