@@ -3,7 +3,7 @@
     "price": -1,
     "stock": 300,
     "description": "[INSERT DESCRIPTION]",
-    "blurb": "Operating temp: -20°C~50°C\nVoltage: 24/48 V\n12bit high resolution magnetic encoder",
+    "blurb": "Operating temp: -20°C~55°C<br>Voltage: 24-48 V<br>Weight: 600g<br>",
     "image": "assets/img/products/RMD-X6-S2-361.png",
     "specifications": {
         "Operating temp": "-20°C~50°C",
