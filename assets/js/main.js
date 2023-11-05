@@ -130,6 +130,10 @@
 
     console.log('in main.js')
   // });
+  
+  $(window).on('load', function() {
+    console.log('window loaded');
+  });
 
   // Skills section
   $('.skills-content').waypoint(function() {
