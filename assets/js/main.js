@@ -4,8 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-function main() {
-// !(function($){ 
+!(function($){ 
   "use strict";
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
@@ -109,9 +108,7 @@ function main() {
   });
 
   // Porfolio isotope and filter
-  // $(window).on('load', function() {
-    // console.log(document.documentElement.outerHTML)
-    console.log('hi2')
+  // $(window).on('load', function() { // NOTE: commented out because this script is now run after acutator-generator.js and does not need to wait for the window to load
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item'
     });
@@ -158,5 +155,4 @@ function main() {
   }
   aos_init();
 
-}//)(jQuery);
-main();
+})(jQuery);
