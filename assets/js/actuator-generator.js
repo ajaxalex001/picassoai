@@ -1,77 +1,22 @@
-// Get container to put all the children
-const portfolioContainer = document.querySelector('.row.portfolio-container');
+// Find all elements with class filter-act
+const filterActElements = document.querySelectorAll('.filter-act');
 
-async function fetchData(fileName) {
-    const response = await fetch(`assets/specdata/${fileName}`);
-    const data = await response.json();
-    return data;
-  }
-  
-function generateHTML(data) {
-    const fileName = data.title.replace(/ /g, "-") + ".json";
-    const imageSrc = data.image;
-    const actuatorLink = `actuator_specs.html?fileName=${fileName}`;
-    const actuatorName = data.title;
-    const blurb = data.blurb.replace(/\n/g, '<br>');
-    
-    const html = `
-      <div class="col-lg-4 col-md-6 portfolio-item filter-act dynamically-generated">
-        <a href="${actuatorLink}" class="actuator-link"><img src="${imageSrc}" class="img-fluid" title="More Details"></a>
-        <div class="portfolio-info ">
-          <h4><a href="${actuatorLink}" class="text-danger actuator-name">${actuatorName}</a></h4>
-          <p>${blurb}</p>
-        </div>
-      </div>
-    `;
-    
-    return html;
-}
-
-async function fetchAndGenerateHTML() {
+// Loop through each element and update the href attribute
+filterActElements.forEach(element => {
     try {
-        const loadingSpinner = document.querySelector('.loading-spinner');
-        loadingSpinner.style.display = 'block';
+        // Find the elements with classes actuator-link and actuator-name inside the current element
+        const linkElements = element.querySelectorAll('.actuator-link, .actuator-name');
 
-        const response = await fetch('assets/specdata/fileList.txt');
-        const text = await response.text();
-        const fileNames = text.split('\n').filter(fileName => fileName.trim() !== '').map(fileName => `${fileName.trim()}.json`);
+        // Extract the name and replace spaces with dashes
+        const name = linkElements[1].textContent.trim().replace(/ /g, '-');
 
-        // Remove dynamically generated elements
-        const dynamicElements = document.querySelectorAll('.dynamically-generated');
-        dynamicElements.forEach(element => {
-            element.remove();
-        });
-
-        const fetchPromises = fileNames.map(fileName => fetchData(fileName));
-        const dataList = await Promise.all(fetchPromises);
-
-        const animationFramePromises = dataList.map(data => {
-            return new Promise(resolve => {
-                requestAnimationFrame(() => {
-                    const generatedHTML = generateHTML(data);
-                    const newDiv = document.createElement('div');
-                    newDiv.className = 'col-lg-4 col-md-6 portfolio-item filter-act dynamically-generated';
-                    newDiv.innerHTML = generatedHTML;
-    
-                    portfolioContainer.appendChild(newDiv.firstElementChild);
-                    resolve(); // Resolve the promise after the animation frame callback is executed
-                });
-            });
-        });
-    
-        await Promise.all(animationFramePromises);
-        const scriptTag = document.createElement('script');
-        scriptTag.src = 'assets/js/main.js';
-        document.body.appendChild(scriptTag);
-        
-        loadingSpinner.style.display = 'none'; // Hide the loading spinner after content is loaded
+        // Update the href attribute with the dynamically generated fileName for both links
+        linkElements[0].href = `actuator_specs.html?fileName=${name}.json`;
+        linkElements[1].href = `actuator_specs.html?fileName=${name}.json`;
     } catch (error) {
-        console.error('Error fetching data:', error);
-        loadingSpinner.style.display = 'none'; // Hide the loading spinner in case of an error
+        // Handle the error by logging a warning message
+        console.warn('Failed to replace element:', error);
     }
-}
-// fetchAndGenerateHTML();
-
-window.addEventListener('load',  (event) => {
-    fetchAndGenerateHTML(); 
 });
+
+

@@ -3,7 +3,7 @@
     "price": -1,
     "stock": 300,
     "description": "[INSERT DESCRIPTION]",
-    "blurb": "Operating temp: -20°C~50°C<br>Voltage: 48 V<br>14bit high resolution magnetic encoder<br>",
+    "blurb": "Operating temp: -20°C~50°C\nVoltage: 24/48 V\n12bit high resolution magnetic encoder",
     "image": "assets/img/products/AK80-8.jpg",
     "specifications": {
         "Operating temp": "-20°C~50°C",

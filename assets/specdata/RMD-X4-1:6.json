@@ -3,7 +3,7 @@
     "price": -1,
     "stock": 300,
     "description": "[INSERT DESCRIPTION]",
-    "blurb": "Nominal output speed: 400rpm<br>Voltage: 24 V<br>Weight: 300g<br>",
+    "blurb": "Operating temp: -20°C~50°C\nVoltage: 24/48 V\n12bit high resolution magnetic encoder",
     "image": "assets/img/products/RMD-X4-16.png",
     "specifications": {
         "Operating temp": "-20°C~50°C",
