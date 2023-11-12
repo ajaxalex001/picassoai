@@ -31,7 +31,7 @@ async function fetchData() {
 
         // Set product description
         const productDescriptionElement = document.getElementById('description');
-        productDescriptionElement.textContent = data.description;
+        productDescriptionElement.innerHTML = data.description;
 
         // Populate specifications dynamically
         const specifications = data.specifications;

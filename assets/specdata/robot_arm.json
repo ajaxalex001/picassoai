@@ -2,7 +2,7 @@
     "title": "Six DOF Robotic Arm",
     "price": -1,
     "stock": 300,
-    "description": "Robotics arm with six degress of freedom",
+    "description": "Robotics arm with six degress of freedom. See it in action <a href=https://www.youtube.com/watch?v=QQLA0qL9x-Q target='_blank'>here</a>.",
     "blurb": "6 DOF<br>Load: 3.0 kg<br>Max power: 240 W",
     "image": "assets/img/products/na.png",
     "specifications": {
