@@ -31,6 +31,14 @@ decreaseBtn.addEventListener('click', function() {
 
 quoteBtn.addEventListener('click', function(event) {
 
+    emailjs.init("");
+
+    emailjs.send("","",{
+        from_name: "Picasso Intelligence",
+        to_name: "[insert name]",
+        });
+
+    return;
     event.preventDefault();
 
     // Create a div element for the popup
