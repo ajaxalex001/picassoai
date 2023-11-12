@@ -7,10 +7,10 @@
     "image": "assets/img/products/hand_exo_home.jpg",
     "specifications": {
         "Model": "SY-HRC10",
-        "Dimensions": "27cm x 16.5cm x 26cm",
-        "Weight": "1.99 kg",
-        "Charging Voltage": "5V",
-        "Charging current": "2A",
+        "Dimensions (cm³)": "27 x 16.5cx 26",
+        "Weight (kg)": "1.99",
+        "Charging Voltage (V)": "5.0",
+        "Charging current (A)": "2.0",
         "Certification": "CE, FDA, ISO13485"
     }
 }

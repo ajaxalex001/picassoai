@@ -1,0 +1,15 @@
+{
+    "title": "Automated Guided Vehicle",
+    "price": -1,
+    "stock": 300,
+    "description": "Two wheel drive automated guided vehicle that can carry a max load of 40 kg.",
+    "blurb": "Max speed: 3m/s<br>Two wheel drive<br>Max load: 40 kg",
+    "image": "assets/img/products/na.png",
+    "specifications": {
+        "Max Speed  (m/s)": "3.0",
+        "Wheel": "Two wheel drive",
+        "Weight (kg)": "15",
+        "Max load (kg)": "40",
+        "Size (mm³)": "500 x 400 x 300"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "title": "Six DOF Robotic Arm",
+    "price": -1,
+    "stock": 300,
+    "description": "Robotics arm with six degress of freedom",
+    "blurb": "6 DOF<br>Load: 3.0 kg<br>Max power: 240 W",
+    "image": "assets/img/products/na.png",
+    "specifications": {
+        "Nominal load (kg)": 3.0,
+        "Working radius (mm)": 630,
+        "Joint maximum angular velcoity (deg/s)": 120,
+        "Terminal maximum linear spead (m/s)": 1.3,
+        "Range of motion [J1]": "±360°",
+        "Range of motion [J2]": "±180°",
+        "Range of motion [J3]": "±150°",
+        "Range of motion [J4]": "±360°",
+        "Range of motion [J5]": "±360°",
+        "Range of motion [J6]": "±360°",
+        "Repetable precision (mm)": "±0.05",
+        "IP rating": "IP54",
+        "Noise (dB)": "60",
+        "Operating temperature (°C)": "0~50",
+        "Operating humidity": "≤95%",
+        "Voltage (V)": "24",
+        "Typical power (W)": "36",
+        "Maximum power (W)": 240,
+        "Weight (kg)": 6.5,
+        "Control mode": "WOSC@802.11b/g/n or CAN",
+        "Material": "Aviation grade aluminum alloy, composite polymer"
+    }
+}

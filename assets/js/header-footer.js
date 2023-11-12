@@ -12,7 +12,7 @@ fetch('header.html')
         const menuItems = {
             'index.html': 'index.html',
             'about.html': ['about.html', 'team.html'],
-            'products.html': ['products.html', 'products_exo.html', 'products_act.html', 'products_sen.html', 'products_elc.html'],
+            'products.html': ['products.html', 'products_exoskeletons.html', 'products_act.html', 'products_sen.html', 'products_elc.html', "products_robotics.html"],
             'contact.html': 'contact.html'
         };
 
