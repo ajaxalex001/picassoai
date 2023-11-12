@@ -1,0 +1,13 @@
+{
+    "title": "Pneumatic Hand Exoskeleton (Clinic)",
+    "price": -1,
+    "stock": 300,
+    "description": "Pneumatics-based robotic hand exoskeleton aimed for clinical use.",
+    "blurb": "Model: SY-HR06E<br>Display Included<br>Several training modes",
+    "image": "assets/img/products/hand_exo_clinic.jpeg",
+    "specifications": {
+        "Model": "SY-HR06E",
+        "Training Modes": "Passive, fine-motor, interactive, manual",
+        "Other": "Display Included"
+    }
+}

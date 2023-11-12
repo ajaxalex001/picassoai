@@ -1,0 +1,16 @@
+{
+    "title": "Pneumatic Hand Exoskeleton (Home)",
+    "price": -1,
+    "stock": 300,
+    "description": "Pneumatics-based robotic hand exoskeleton aimed for home therapy use.",
+    "blurb": "Weight: 1.99 kg<br>Charging Voltage: 5V<br>Charging current: 2A<br>",
+    "image": "assets/img/products/hand_exo_home.jpg",
+    "specifications": {
+        "Model": "SY-HRC10",
+        "Dimensions": "27cm x 16.5cm x 26cm",
+        "Weight": "1.99 kg",
+        "Charging Voltage": "5V",
+        "Charging current": "2A",
+        "Certification": "CE, FDA, ISO13485"
+    }
+}
