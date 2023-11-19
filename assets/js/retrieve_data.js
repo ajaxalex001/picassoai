@@ -25,7 +25,7 @@ async function fetchData() {
         // Set product price
         const productPriceElement = document.getElementById('product-price');
         productPriceElement.textContent = data.price;
-        productPriceElement.innerHTML = `<strong>Price:</strong> $500`;
+        productPriceElement.innerHTML = `<strong>Price:</strong> $${data.price.toFixed(2)}`;
         productPriceElement.style.color = '#1ed33c'; //FIXME: query from CSS instead of hardcoding
         productPriceElement.style.fontSize = 'larger';
 

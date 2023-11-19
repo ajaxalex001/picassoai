@@ -1,6 +1,6 @@
 {
     "title": "MyActuator RMD X8",
-    "price": -1,
+    "price": 384.00,
     "stock": 300,
     "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
     "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],

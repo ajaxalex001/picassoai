@@ -17,7 +17,7 @@ The json file must have the following attributes:
 ```
 {
     "title": "T-Motor AK10-9 V2",
-    "price": 500,
+    "price": 500.00,
     "stock": 300,
     "description": "The AK10-9 V2 is a cost-effective, high performance actuator that ...",
     "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],
