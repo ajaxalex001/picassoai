@@ -36,8 +36,9 @@ async function fetchAndGenerateHTML() {
                             <div class="job-description">${job.description}</div>
                             <div class="job-description"><strong>Tasks:</strong> ${job.tasks}</div>
                             <div class="job-description"><strong>Skills:</strong> ${job.skills}</div>
+                            <button class="apply-button";" onclick="openPopup('${job.title} Job Application')">Apply</button>
                         </div>
-                        <button class="apply-button" style="background-color: #4CAF50;" onclick="openPopup('${job.title} Job Application')">Apply</button>
+                        
                     </div>
                 `;
 
