@@ -13,6 +13,7 @@ fetch('header.html')
             'index.html': 'index.html',
             'about.html': ['about.html', 'team.html'],
             'products.html': ['products.html', 'products_exoskeletons.html', 'products_act.html', 'products_sensors.html', 'products_elc.html', "products_robotics.html"],
+            'careers.html': 'careers.html',
             'contact.html': 'contact.html'
         };
 
