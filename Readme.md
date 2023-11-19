@@ -17,6 +17,7 @@ The json file must have the following attributes:
 ```
 {
     "title": "AK10-9 V2",
+    "brand": "T-Motor",
     "price": 500,
     "stock": 300,
     "description": "The AK10-9 V2 is a cost-effective, high performance actuator that ...",
