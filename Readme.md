@@ -5,7 +5,7 @@
 
 ### JSON schema
 The json file must have the following attributes:
-   - `title (string)`: name of the actuator
+   - `title (string)`: name and brand of the actuator
    - `price (number)`: price of the actuator
    - `stock (number)`: amount of the actuator in inventory
    - `description (string)`: description of actuator shown on the actuator's own product page
@@ -16,8 +16,7 @@ The json file must have the following attributes:
 ### Example JSON
 ```
 {
-    "title": "AK10-9 V2",
-    "brand": "T-Motor",
+    "title": "T-Motor AK10-9 V2",
     "price": 500,
     "stock": 300,
     "description": "The AK10-9 V2 is a cost-effective, high performance actuator that ...",
