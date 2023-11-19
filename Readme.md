@@ -32,3 +32,24 @@ The json file must have the following attributes:
     }
 }
 ```
+
+# Adding New Jobs
+1. Create a .json file in `assets/jobapps/`
+2. Add the json file name to `assets/jobapps/fileList.txt`
+
+### JSON schema
+The json file must have the following attributes:
+   - `title (string)`: name of the listing
+   - `description (string)`: description of the job
+   - `tasks (string)`: list of tasks the applicant can be expected to perform
+   - `skills (string)`: list of skills needed for the job
+
+### Example JSON
+```
+{
+    "title": "Controls Engineering Intern",
+    "description": "Join us to develop various high-performance robots for real-world applications, including humanoid robots, exoskeletons, prostheses, mobile robots, robot arms and robot manipulators, and mobile manipulators.",
+    "tasks": "actuator force control, applied control methods",
+    "skills": "MATLAB, Simulink, C, Arduino, or Python programming"
+}
+```
