@@ -1,0 +1,30 @@
+{
+    "title": "MyActuator RMD S 2408",
+    "price": 33.90,
+    "stock": 300,
+    "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
+    "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],
+    "image": "assets/img/products/RMD-S-2408.png",
+    "specifications": {
+        "Nominal voltage (V)": 12,
+        "Voltage range (V)": "6~24",
+        "Nominal current (A)": 0.64,
+        "Peak current (A)": 1.60,
+        "Nominal power (W)": 24,
+        "Nominal torque (Nm)": 0.04,
+        "Peak torque (Nm)": 0.09,
+        "Torque constant (Nm/A)": 0.06,
+        "Nominal speed (rpm)": 1160,
+        "Peak speed (rpm)": 2000,
+        "Speed constant (rpm/V)": 167,
+        "Line resistance (Ω)": 6.00,
+        "Phase to phase inductance (mH)": 71.68,
+        "Number of pole pairs": 7,
+        "Rotor inertia (gcm²)": 35,
+        "Weight (g)": 49,
+        "Working temperature (°C)": "-20~80",
+        "Communication": "RS-485",
+        "Connector": "ZH1.0/6PIN",
+        "Encoder": "12-bit magnetic encoder"
+    }
+}

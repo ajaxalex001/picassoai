@@ -8,7 +8,7 @@
     "specifications": {
         "Nominal voltage (V)": 12,
         "Voltage range (V)": "8~24",
-        "Current (A)": 1.43,
+        "Nominal Current (A)": 1.43,
         "Peak current (A)": 3.2, 
         "Peak instant current (A)": 8,
         "Nominal power (W)": 100,
