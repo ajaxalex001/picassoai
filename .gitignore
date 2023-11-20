@@ -74,3 +74,4 @@ Icon
 venv/
 venv-bak/
 
+.env

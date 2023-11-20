@@ -31,9 +31,9 @@ decreaseBtn.addEventListener('click', function() {
 
 quoteBtn.addEventListener('click', function(event) {
 
-    emailjs.init("");
+    emailjs.init(process.env.EMAILJS_API_KEY);
 
-    emailjs.send("","",{
+    emailjs.send("pi-email-serv","quote-template",{
         from_name: "Picasso Intelligence",
         to_name: "[insert name]",
         });
