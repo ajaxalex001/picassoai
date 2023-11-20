@@ -4,15 +4,24 @@ const portfolioContainer = document.querySelector('.row.portfolio-container');
 async function fetchData(fileName) {
     const response = await fetch(`assets/specdata/${fileName}`);
     const data = await response.json();
+    data.fileName = fileName;
     return data;
   }
   
 function generateHTML(data) {
-    const fileName = data.title.replace(/ /g, "-") + ".json";
     const imageSrc = data.image;
-    const actuatorLink = `actuator_specs.html?fileName=${fileName}`;
+    const actuatorLink = `actuator_specs.html?fileName=${data.fileName}`;
     const actuatorName = data.title;
-    const blurb = data.blurb.replace(/\n/g, '<br>');
+    console.log(data.specifications)
+
+    const blurb = data.blurb
+    .map(
+      (item) =>
+        `<p>${item}: <span style="float: right; font-weight: bold;">${
+          data.specifications[item] ?? 'N/A'
+        }</span></p>`
+    )
+    .join('');
     
     const html = `
       <div class="col-lg-4 col-md-6 portfolio-item filter-act dynamically-generated">

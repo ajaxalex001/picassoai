@@ -1,19 +1,19 @@
 {
-    "title": "AK70-10",
-    "price": -1,
+    "title": "T-Motor AK70-10",
+    "price": 493.90,
     "stock": 300,
-    "description": "[INSERT DESCRIPTION]",
-    "blurb": "Operating temp: -20°C~50°C\nVoltage: 24/48 V\n12bit high resolution magnetic encoder",
+    "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
+    "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],
     "image": "assets/img/products/AK70-10.jpg",
     "specifications": {
         "Operating temp": "-20°C~50°C",
         "Phase": "Three Phase",
         "Reduction ratio": "10:1",
         "Back drive (Nm)": "0.48",
-        "Rated voltage (V)": "24/48",
-        "Rated torque (Nm)": "0.83",
-        "Rated speed (rpm)": "148/310",
-        "Rated current (ADC)": 7.2,
+        "Nominal voltage (V)": "24/48",
+        "Nominal torque (Nm)": "8.3",
+        "Nominal speed (rpm)": "148/310",
+        "Nominal current (ADC)": 7.2,
         "Peak torque (Nm)" : 24.8,
         "Peak current (ADC)": 23.2,
         "Kv (rpm/V)": 100,
@@ -29,6 +29,6 @@
         "Power connector": "XT30PW-M",
         "Inner loop encoder type": "Magnetic encoder",
         "Inner loop encoder resolution": "14bit",
-        "NUmber of encoder": 1
+        "Number of encoders": 1
     }
 }

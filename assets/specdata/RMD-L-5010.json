@@ -1,0 +1,26 @@
+{
+    "title": "MyActuator RMD L 5010",
+    "price": 90.00,
+    "stock": 300,
+    "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
+    "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],
+    "image": "assets/img/products/RMD-L-5010.png",
+    "specifications": {
+        "Nominal voltage (V)": 16,
+        "Voltage range (V)": "8~24",
+        "Nominal current (A)": "5.06/1.65",
+        "Peak current (A)": "8.0/4.8",
+        "Nominal power (W)": 100,
+        "Nominal torque (Nm)": 0.26,
+        "Peak torque (Nm)": "0.40/0.65",
+        "Torque constant (Nm/A)": "0.05/0.16",
+        "Nominal speed (rpm)": "2400/600",
+        "Peak speed (rpm)": "3050/1015",
+        "Speed constant (rpm/V)": "191/63",
+        "Weight (g)": 135,
+        "Working temperature (°C)": "-20~80",
+        "Communication": "RS-485/CAN BUS",
+        "Connector": "ZH1.5/6PIN",
+        "Encoder": "14-bit magnetic"
+    }
+}
