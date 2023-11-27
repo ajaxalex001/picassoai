@@ -1,10 +1,10 @@
 {
-    "title": "Six DOF Robotic Arm",
+    "title": "Six DOF Robot Arm",
     "price": -1,
     "stock": 300,
-    "description": "Robotic arm with six degress of freedom. See it in action <a href=https://www.youtube.com/watch?v=QQLA0qL9x-Q target='_blank'>here</a>.",
+    "description": "Robot arm with six degress of freedom. See it in action <a href=https://www.youtube.com/watch?v=QQLA0qL9x-Q target='_blank'>here</a>.",
     "blurb": "6 DOF<br>Load: 3.0 kg<br>Max power: 240 W",
-    "image": "assets/img/products/na.png",
+    "image": "assets/img/products/robot-arm.png",
     "specifications": {
         "Nominal load (kg)": 3.0,
         "Working radius (mm)": 630,
