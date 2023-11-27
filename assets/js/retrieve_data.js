@@ -14,6 +14,7 @@ async function fetchData() {
         // Set product image
         const productImage = document.getElementById('product-image');
         productImage.src = data.image;
+        productImage.alt = `Picture of ${data.title}`;  
 
         // Calculate 1/3rd of the total screen width
         const oneThirdScreenWidth = window.innerWidth / 3;

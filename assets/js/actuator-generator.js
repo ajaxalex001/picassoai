@@ -25,7 +25,7 @@ function generateHTML(data) {
     
     const html = `
       <div class="col-lg-4 col-md-6 portfolio-item filter-act dynamically-generated">
-        <a href="${actuatorLink}" class="actuator-link"><img src="${imageSrc}" class="img-fluid" title="More Details"></a>
+        <a href="${actuatorLink}" class="actuator-link"><img src="${imageSrc}" alt="Picture of ${actuatorName}" class="img-fluid" title="More Details"></a>
         <div class="portfolio-info ">
           <h4><a href="${actuatorLink}" class="text-danger actuator-name">${actuatorName}</a></h4>
           <p>${blurb}</p>
