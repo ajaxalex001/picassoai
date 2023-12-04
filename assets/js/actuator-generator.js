@@ -9,7 +9,7 @@ async function fetchData(fileName) {
   }
   
 function generateHTML(data) {
-    const imageSrc = data.image;
+    const imageSrc = Array.isArray(data.image) ? data.image[0] : data.image;
     const actuatorLink = `actuator_specs.html?fileName=${data.fileName}`;
     const actuatorName = data.title;
     console.log(data.specifications)

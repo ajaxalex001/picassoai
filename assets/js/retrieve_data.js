@@ -11,17 +11,39 @@ async function fetchData() {
         // Set product title
         document.querySelector('.section-title h2').textContent = data.title;
 
-        // Set product image
-        const productImage = document.getElementById('product-image');
-        productImage.src = data.image;
-        productImage.alt = `Picture of ${data.title}`;  
+        // Set product images
+        var imageUrls = Array.isArray(data.image) ? data.image : [data.image];
+        var carouselInner = document.getElementById('carousel-inner');
 
-        // Calculate 1/3rd of the total screen width
-        const oneThirdScreenWidth = window.innerWidth / 3;
+        // Iterate through image URLs and create carousel items
+        imageUrls.forEach(function (url, index) {
+            const isActive = index === 0;
+          
+            // Encode the URL to handle spaces
+            const encodedUrl = encodeURIComponent(url);
+          
+            // Create carousel item
+            const carouselItem = document.createElement('div');
+            carouselItem.className = 'carousel-item' + (isActive ? ' active' : '');
+            carouselItem.style.backgroundImage = 'url(' + encodedUrl + ')';
+            carouselItem.style.backgroundSize = 'contain';
+            carouselInner.appendChild(carouselItem);
+          
+            // Create carousel indicator
+            const indicator = document.createElement('li');
+            indicator.setAttribute('data-target', '#heroCarousel');
+            indicator.setAttribute('data-slide-to', index);
+            indicator.className = isActive ? 'active' : '';
+            document.getElementById('hero-carousel-indicators').appendChild(indicator);
+        });
 
+        const aspectRatio = 1;
 
-        // Set width of the image to 1/3rd of the total screen width
-        productImage.style.width = `${oneThirdScreenWidth}px`;
+        // Move these lines to adjust the width and height dynamically
+        const heroSection = document.getElementById('hero');
+        heroSection.style.width = 'calc(80% - 20px)';
+        // heroSection.style.height = `calc((80% - 20px) * ${aspectRatio})`;
+
 
         // Set product price
         const productPriceElement = document.getElementById('product-price');

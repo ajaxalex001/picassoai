@@ -1,10 +1,10 @@
 {
-    "title": "MyActuator RMD S 2408",
+    "title": "Picasso-S-2408",
     "price": 33.90,
     "stock": 300,
     "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
     "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],
-    "image": "assets/img/products/RMD-S-2408.png",
+    "image": "assets/img/products/Picasso-S-2408.png",
     "specifications": {
         "Nominal voltage (V)": 12,
         "Voltage range (V)": "6~24",

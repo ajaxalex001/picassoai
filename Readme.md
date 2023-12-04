@@ -10,7 +10,7 @@ The json file must have the following attributes:
    - `stock (number)`: amount of the actuator in inventory
    - `description (string)`: description of actuator shown on the actuator's own product page
    - `blurb (string list)`: a list of attributes to pull from the specifications object for the product page description. N/A will be used if the attribute is not found
-   - `image (string)`: link to image in the `assets/img/products/` directory
+   - `image (string/string list)`: link to image(s) in the `assets/img/products/` directory. If a list is provided, the first image will be used as the thumbnail on the product page.
    - `specifications (list)`: list of actuator attributes to be displayed on the products page
 
 ### Example JSON
@@ -21,7 +21,7 @@ The json file must have the following attributes:
     "stock": 300,
     "description": "The AK10-9 V2 is a cost-effective, high performance actuator that ...",
     "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],
-    "image": "assets/img/products/AK10-9 V2.jpg",
+    "image": ["assets/img/products/AK10-9 V2.jpg"],
     "specifications": {
         "Operating temp": "-20°C~50°C",
         "Phase": "Three Phase",
