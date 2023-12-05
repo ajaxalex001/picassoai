@@ -3,10 +3,10 @@
     "price": -1,
     "stock": 300,
     "description": "Two wheel drive automated guided vehicle that can carry a max load of 40 kg.",
-    "blurb": "Max speed: 3m/s<br>Two wheel drive<br>Max load: 40 kg",
-    "image": "assets/img/products/na.png",
+    "blurb": ["Max speed (m/s)", "Wheel", "Max load (kg)"],
+    "filter": "robo",
     "specifications": {
-        "Max Speed  (m/s)": "3.0",
+        "Max speed  (m/s)": "3.0",
         "Wheel": "Two wheel drive",
         "Weight (kg)": "15",
         "Max load (kg)": "40",

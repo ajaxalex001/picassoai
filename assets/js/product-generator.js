@@ -1,5 +1,11 @@
 // Get container to put all the children
 const portfolioContainer = document.querySelector('.row.portfolio-container');
+const showAllSymbol = '!ALL!'
+
+const scriptSrc = document.currentScript.src;
+const url = new URL(scriptSrc);
+const showParam = url.searchParams.get('show');
+const showList = showParam ? showParam.split(',') : [showAllSymbol];
 
 async function fetchData(fileName) {
     const response = await fetch(`assets/specdata/${fileName}`);
@@ -9,22 +15,25 @@ async function fetchData(fileName) {
   }
   
 function generateHTML(data) {
-    const imageSrc = Array.isArray(data.image) ? data.image[0] : data.image;
-    const actuatorLink = `actuator_specs.html?fileName=${data.fileName}`;
+    const imageSrc = (Array.isArray(data.image) ? data.image[0] : data.image) ?? "assets/img/products/na.png";
+    const filterSrc = data.filter ?? 'act';
+    if(!showList.includes(showAllSymbol) && !showList.includes(filterSrc)) {
+      return;
+    }
+    const actuatorLink = `product_specs.html?fileName=${data.fileName}`;
     const actuatorName = data.title;
-    console.log(data.specifications)
 
-    const blurb = data.blurb
-    .map(
+    const blurb = Array.isArray(data.blurb) ? 
+    data.blurb.map(
       (item) =>
         `<p>${item}: <span style="float: right; font-weight: bold;">${
           data.specifications[item] ?? 'N/A'
         }</span></p>`
     )
-    .join('');
+    .join('') : data.blurb;
     
     const html = `
-      <div class="col-lg-4 col-md-6 portfolio-item filter-act dynamically-generated">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-${filterSrc} dynamically-generated">
         <a href="${actuatorLink}" class="actuator-link"><img src="${imageSrc}" alt="Picture of ${actuatorName}" class="img-fluid" title="More Details"></a>
         <div class="portfolio-info ">
           <h4><a href="${actuatorLink}" class="text-danger actuator-name">${actuatorName}</a></h4>
@@ -58,12 +67,15 @@ async function fetchAndGenerateHTML() {
             return new Promise(resolve => {
                 requestAnimationFrame(() => {
                     const generatedHTML = generateHTML(data);
-                    const newDiv = document.createElement('div');
-                    newDiv.className = 'col-lg-4 col-md-6 portfolio-item filter-act dynamically-generated';
-                    newDiv.innerHTML = generatedHTML;
-    
-                    portfolioContainer.appendChild(newDiv.firstElementChild);
-                    resolve(); // Resolve the promise after the animation frame callback is executed
+                    if(generatedHTML !== undefined) {
+                      const newDiv = document.createElement('div');
+                      newDiv.className = 'col-lg-4 col-md-6 portfolio-item filter-act dynamically-generated';
+                      newDiv.innerHTML = generatedHTML;
+      
+                      portfolioContainer.appendChild(newDiv.firstElementChild);
+                      resolve(); // Resolve the promise after the animation frame callback is executed
+                    }
+                    resolve();
                 });
             });
         });

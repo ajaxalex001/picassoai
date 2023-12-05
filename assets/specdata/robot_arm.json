@@ -3,9 +3,11 @@
     "price": 6000,
     "stock": 300,
     "description": "Collaborative Robot with six degress of freedom. See it in action <a href=https://www.youtube.com/watch?v=QQLA0qL9x-Q target='_blank'>here</a>.",
-    "blurb": "6 DOF<br>Load: 3.0 kg<br>Max power: 240 W",
+    "blurb": ["Degrees of freedom", "Nominal load (kg)", "Maximum power (W)"],
     "image": ["assets/img/products/robot-arm/robot-arm.png", "assets/img/products/robot-arm/robot-arm-2.jpg", "assets/img/products/robot-arm/robot-arm-3.jpg","assets/img/products/robot-arm/robot-arm-4.jpg","assets/img/products/robot-arm/robot-arm-5.jpg","assets/img/products/robot-arm/robot-arm-6.jpg","assets/img/products/robot-arm/robot-arm-7.jpg"],
+    "filter": "robo",
     "specifications": {
+        "Degrees of freedom": 6,
         "Nominal load (kg)": 3.0,
         "Working radius (mm)": 630,
         "Joint maximum angular velcoity (deg/s)": 120,

@@ -12,7 +12,7 @@ async function fetchData() {
         document.querySelector('.section-title h2').textContent = data.title;
 
         // Set product images
-        var imageUrls = Array.isArray(data.image) ? data.image : [data.image];
+        var imageUrls = Array.isArray(data.image) ? data.image : [data.image ?? "assets/img/products/na.png"];
         var carouselInner = document.getElementById('carousel-inner');
 
         // Iterate through image URLs and create carousel items
