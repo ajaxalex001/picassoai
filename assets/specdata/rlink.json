@@ -1,0 +1,15 @@
+{
+    "title": "Rubik Link V2.0",
+    "price": 39.90,
+    "stock": 300,
+    "description": "USB to serial module for use with AK series actuators",
+    "blurb": ["Dimensions (mm³)", "Weight (g)", "Compatibility"],
+    "image": ["assets/img/products/rlink/rlink.jpg", "assets/img/products/rlink/rlink1.jpg", "assets/img/products/rlink/rlink2.jpg"],
+    "filter": "act",
+    "specifications": {
+        "Dimensions (mm³)": "39x29x10",
+        "Weight (g)": 16,
+        "Compatibility": "AK series actuators",
+        "Accessories": "5 pin cable, USB to micro cable"
+    }
+}
