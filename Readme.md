@@ -9,8 +9,8 @@ The json file must have the following attributes:
    - `price (number)`: price of the actuator
    - `stock (number)`: amount of the actuator in inventory
    - `description (string)`: description of actuator shown on the actuator's own product page
-   - `blurb (string list)`: a list of attributes to pull from the specifications object for the product page description. N/A will be used if the attribute is not found
-   - `image (string/string list)`: link to image(s) in the `assets/img/products/` directory. If a list is provided, the first image will be used as the thumbnail on the product page.
+   - `blurb (string/string list)`: a list of attributes to pull from the specifications object for the product page description. N/A will be used if the attribute is not found. If a custom description is required, use a string instead of a string list to directly provide the description.
+   - `image (string/string list) [optional]`: link to image(s) in the `assets/img/products/` directory. If a list is provided, the first image will be used as the thumbnail on the product page. If not provided, `assets/img/products/na.png` will be used instead.
    - `specifications (list)`: list of actuator attributes to be displayed on the products page
 
 ### Example JSON
