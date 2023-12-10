@@ -10,7 +10,7 @@ The json file must have the following attributes:
    - `stock (number)`: amount of the actuator in inventory
    - `description (string)`: description of actuator shown on the actuator's own product page
    - `blurb (string/string list)`: a list of attributes to pull from the specifications object for the product page description. N/A will be used if the attribute is not found. If a custom description is required, use a string instead of a string list to directly provide the description.
-   - `image (string/string list) [optional]`: link to image(s) in the `assets/img/products/` directory. If a list is provided, the first image will be used as the thumbnail on the product page. If not provided, `assets/img/products/na.png` will be used instead.
+   - `image (string/string list) [optional]`: link to image(s) in the `assets/img/products/` directory. If a list is provided, the first image will be used as the thumbnail on the product page. If not provided, `assets/img/products/na.png` will be used instead. Youtube links are also supported, however, the auto-scrolling functionality of the carousel will be disabled. 
    - `filter (string) [optional]`: category of the product to be filtered on the main products page. For backwards compataibly reasons, this field is optional and will default to `act`. The category mappings are as follows: 
         - actuators: `act`
         - sensors: `sen`
@@ -26,7 +26,7 @@ The json file must have the following attributes:
     "stock": 300,
     "description": "The AK10-9 V2 is a cost-effective, high performance actuator that ...",
     "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],
-    "image": ["assets/img/products/AK10-9 V2.jpg"],
+    "image": ["assets/img/products/AK10-9 V2.jpg", "https://www.youtube.com/watch?v=RjQzh3F6EL0"],
     "specifications": {
         "Operating temp": "-20°C~50°C",
         "Phase": "Three Phase",

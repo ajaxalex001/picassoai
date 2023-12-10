@@ -1,3 +1,22 @@
+function getYouTubeVideoId(url) {
+    const regex = /(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:[^\/\n\s]+\/\S+\/|(?:v|e(?:mbed)?)\/|\S*?[?&]v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})/i;
+    const match = url.match(regex);
+    return match && match[1];
+}
+
+function preventAutoScroll() {
+    // Find the carousel element
+    var heroCarousel = document.getElementById("heroCarousel");
+
+    // Remove the data-ride attribute to stop automatic sliding
+    heroCarousel.removeAttribute("data-ride");
+
+    // Stop the interval that handles automatic sliding
+    $('.carousel').carousel('pause');
+}
+
+let youtubePlayer;
+
 async function fetchData() {
     try {
         // Get the value of the fileName parameter from the URL
@@ -18,17 +37,44 @@ async function fetchData() {
         // Iterate through image URLs and create carousel items
         imageUrls.forEach(function (url, index) {
             const isActive = index === 0;
-          
-            // Encode the URL to handle spaces
-            const encodedUrl = encodeURIComponent(url);
-          
-            // Create carousel item
-            const carouselItem = document.createElement('div');
-            carouselItem.className = 'carousel-item' + (isActive ? ' active' : '');
-            carouselItem.style.backgroundImage = 'url(' + encodedUrl + ')';
-            carouselItem.style.backgroundSize = 'contain';
-            carouselInner.appendChild(carouselItem);
-          
+        
+            // Check if the imageUrl contains "youtube.com"
+            if (url.includes("youtube.com")) {
+                // Extract the video ID from the YouTube URL
+                const videoId = getYouTubeVideoId(url);
+        
+                // Create an iframe element for the YouTube video
+                const iframe = document.createElement('iframe');
+                iframe.src = 'https://www.youtube.com/embed/' + videoId;
+                iframe.style.width = '90%';
+                iframe.style.height = '90%';
+                iframe.style.border = 'none';
+                iframe.allowFullscreen = true;
+        
+                // Create carousel item
+                const carouselItem = document.createElement('div');
+                carouselItem.className = 'carousel-item' + (isActive ? ' active' : '');
+
+                carouselItem.style.display = 'flex';
+                carouselItem.style.justifyContent = 'center';
+                carouselItem.style.alignItems = 'center';
+
+                carouselItem.appendChild(iframe);
+                carouselInner.appendChild(carouselItem);
+
+                preventAutoScroll();
+            } else {
+                // Encode the URL to handle spaces
+                const encodedUrl = encodeURIComponent(url);
+        
+                // Create carousel item
+                const carouselItem = document.createElement('div');
+                carouselItem.className = 'carousel-item' + (isActive ? ' active' : '');
+                carouselItem.style.backgroundImage = 'url(' + encodedUrl + ')';
+                carouselItem.style.backgroundSize = 'contain';
+                carouselInner.appendChild(carouselItem);
+            }
+        
             // Create carousel indicator
             const indicator = document.createElement('li');
             indicator.setAttribute('data-target', '#heroCarousel');
@@ -36,7 +82,6 @@ async function fetchData() {
             indicator.className = isActive ? 'active' : '';
             document.getElementById('hero-carousel-indicators').appendChild(indicator);
         });
-
         const aspectRatio = 1;
 
         // Move these lines to adjust the width and height dynamically
