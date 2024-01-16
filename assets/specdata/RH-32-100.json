@@ -1,0 +1,23 @@
+{
+    "title": "RH-32-100",
+    "price": -1,
+    "stock": 300,
+    "description": "Harmonic actuator (hollow shaft) for use in legged robots, exoskeletons, and AGVs.",
+    "blurb": [ "Reduction ratio", "Peak torque (Nm)", "Output speed (rpm)",  "Nominal voltage (V)", "Brake"],
+    "specifications": {
+        "Reduction ratio": "100",
+        "Nominal voltage (V)": "24",
+        "Nominal current (A)": 16,
+        "Peak current (A)": "48 for <10s",
+        "Nominal torque (Nm)": 158.9,
+        "Peak torque (Nm)": "317.8 for <10s",
+        "Output speed (rpm)": 20,
+        "Nominal power (W)": 384,
+        "Size (mm)": "D142 x 101.9",
+        "Size with brake (mm)": "D142 x 118.4",
+        "Weight (kg)": 3.35,
+        "Weight with brake (kg)": 4.26,
+        "Communication": "CAN",
+        "Brake": "Optional"
+    }
+}
