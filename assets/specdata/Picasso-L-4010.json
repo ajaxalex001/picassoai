@@ -6,6 +6,7 @@
     "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],
     "image": "assets/img/products/Picasso-L-4010.png",
     "specifications": {
+        "Gear ratio": "Direct drive",
         "Nominal voltage (V)": 12,
         "Voltage range (V)": "8~24",
         "Nominal Current (A)": 1.43,
@@ -18,10 +19,12 @@
         "Nominal speed (rpm)": 1120,
         "Speed constant (rpm/V)": 93,
         "Phase to phase inductance (mH)": 1,
+        "Size (mm)": "D40 x 28",
         "Weight (g)": 92,
         "Working temperature (°C)": "-20~80",
         "Communication": "RS-485/CAN BUS",
         "Connector": "ZH1.5/6PIN",
-        "Encoder": "14-bit magnetic"
+        "Encoder": "14-bit magnetic",
+        "Resolution (pulse/turn)": "2¹⁴ (0.021°)"
     }
 }

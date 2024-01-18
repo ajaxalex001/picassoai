@@ -6,6 +6,7 @@
     "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],
     "image": "assets/img/products/Picasso-L-5010.png",
     "specifications": {
+        "Gear ratio": "Direct drive",
         "Nominal voltage (V)": 16,
         "Voltage range (V)": "8~24",
         "Nominal current (A)": "5.06/1.65",
@@ -17,10 +18,12 @@
         "Nominal speed (rpm)": "2400/600",
         "Peak speed (rpm)": "3050/1015",
         "Speed constant (rpm/V)": "191/63",
+        "Size (mm)": "D50 x 30",
         "Weight (g)": 135,
         "Working temperature (°C)": "-20~80",
         "Communication": "RS-485/CAN BUS",
         "Connector": "ZH1.5/6PIN",
-        "Encoder": "14-bit magnetic"
+        "Encoder": "14-bit magnetic",
+        "Resolution (pulse/turn)": "2¹⁴ (0.021°)"
     }
 }
