@@ -24,6 +24,7 @@ RH-20-100
 RH-25-100
 RH-32-100
 CEM-30
+Micro-Metal-Gearmotor
 robot_arm
 AGV
 rlink
