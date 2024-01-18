@@ -23,6 +23,7 @@ RH-17-100
 RH-20-100
 RH-25-100
 RH-32-100
+CEM-30
 robot_arm
 AGV
 rlink
