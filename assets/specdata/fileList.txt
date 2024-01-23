@@ -25,5 +25,5 @@ RH-25-100
 RH-32-100
 CEM-30
 robot_arm
-AGV
+mobile_manipulator
 rlink

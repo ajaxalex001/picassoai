@@ -1,0 +1,16 @@
+{
+    "title": "Mobile Manipulator",
+    "price": -1,
+    "stock": 300,
+    "description": "Two wheel drive automated guided vehicle that can carry a max load of 40 kg. The CEM-30 actuator provides precise and powerful control. More details on the CEM-30 actuator can be found <a href=\"https://picassointelligence.com/product_specs.html?fileName=CEM-30.json\">here</a>.",
+    "blurb": ["Max speed (m/s)", "Motors", "Max load (kg)"],
+    "filter": "robo",
+    "specifications": {
+        "Max speed (m/s)": "3.0",
+        "Wheel": "Two wheel drive",
+        "Weight (kg)": "15",
+        "Max load (kg)": "40",
+        "Size (mm³)": "500 x 400 x 300",
+        "Actuators": "6x CEM-30"
+    }
+}

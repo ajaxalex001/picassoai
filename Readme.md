@@ -6,7 +6,7 @@
 ### JSON schema
 The json file must have the following attributes:
    - `title (string)`: name and brand of the actuator
-   - `price (number)`: price of the actuator
+   - `price (number)`: price of the actuator. For non-positive prices, the price will be displayed as "Price not available. Request a quote for more details."
    - `stock (number)`: amount of the actuator in inventory
    - `description (string)`: description of actuator shown on the actuator's own product page
    - `blurb (string/string list)`: a list of attributes to pull from the specifications object for the product page description. N/A will be used if the attribute is not found. If a custom description is required, use a string instead of a string list to directly provide the description.

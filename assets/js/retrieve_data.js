@@ -93,7 +93,7 @@ async function fetchData() {
         // Set product price
         const productPriceElement = document.getElementById('product-price');
         productPriceElement.textContent = data.price;
-        productPriceElement.innerHTML = `<strong>Price:</strong> $${data.price.toFixed(2)}`;
+        productPriceElement.innerHTML = data.price > 0 ? `<strong>Price:</strong> $${data.price.toFixed(2)}` : "Price not available. Request a quote for more details.";
         productPriceElement.style.color = '#1ed33c'; //FIXME: query from CSS instead of hardcoding
         productPriceElement.style.fontSize = 'larger';
 
