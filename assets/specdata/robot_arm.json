@@ -2,8 +2,8 @@
     "title": "6 DOF Collaborative Robot",
     "price": 6000,
     "stock": 300,
-    "description": "Collaborative Robot with six degress of freedom. See it in action <a href=https://www.youtube.com/watch?v=RjQzh3F6EL0 target='_blank'>here</a>.",
-    "blurb": ["Degrees of freedom", "Nominal load (kg)", "Maximum power (W)"],
+    "description": "Collaborative Robot with six degress of freedom. See it in action <a href=https://www.youtube.com/watch?v=RjQzh3F6EL0 target='_blank'>here</a>. The CEM-30 actuators provide precise and powerful control. More details on the CEM-30 actuator can be found <a href=\"https://picassointelligence.com/product_specs.html?fileName=CEM-30.json\">here</a>.",
+    "blurb": ["Degrees of freedom", "Nominal load (kg)", "Maximum power (W)", "Actuators"],
     "image": ["assets/img/products/robot-arm/robot-arm.png", "https://www.youtube.com/watch?v=RjQzh3F6EL0", "assets/img/products/robot-arm/robot-arm-2.jpg", "assets/img/products/robot-arm/robot-arm-3.jpg","assets/img/products/robot-arm/robot-arm-4.jpg","assets/img/products/robot-arm/robot-arm-5.jpg","assets/img/products/robot-arm/robot-arm-6.jpg","assets/img/products/robot-arm/robot-arm-7.jpg"],
     "filter": "robo",
     "specifications": {
@@ -28,6 +28,7 @@
         "Maximum power (W)": 240,
         "Weight (kg)": 6.5,
         "Control mode": "WOSC@802.11b/g/n or CAN",
-        "Material": "Aviation grade aluminum alloy, composite polymer"
+        "Material": "Aviation grade aluminum alloy, composite polymer",
+        "Actuators": "6x CEM-30"
     }
 }
