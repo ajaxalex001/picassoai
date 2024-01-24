@@ -2525,3 +2525,8 @@ section {
   font-size: 16px;
   margin-bottom: 10px;
 }
+
+.custom-border {
+  border-radius: 10px;
+  border: 1px solid rgba(210, 210, 210, 0.5);
+}
