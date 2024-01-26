@@ -2,7 +2,7 @@
     "title": "Mobile Manipulator",
     "price": -1,
     "stock": 300,
-    "description": "Two wheel drive automated guided vehicle that can carry a max load of 50 kg.",
+    "description": "Four wheel drive automated guided vehicle that can carry a max load of 50 kg.",
     "blurb": ["Max speed (m/s)", "Max load (kg)",  "Drivetrain"],
     "image": ["assets/img/products/mm/mm-1.png", "assets/img/products/mm/mm-2.png", "assets/img/products/mm/mm-3.png", "assets/img/products/mm/mm-4.png"],
     "filter": "robo",
@@ -13,6 +13,7 @@
         "Drivetrain": "Four wheel drive",
         "Weight (kg)": "15",
         "Max load (kg)": "50",
-        "Size (mm³)": "L600 x W500 x H300"
+        "Size (mm³)": "L600 x W500 x H300",
+        "Actuators": "4x RMD X10-T"
     }
 }

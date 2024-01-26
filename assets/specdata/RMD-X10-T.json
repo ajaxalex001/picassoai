@@ -1,0 +1,29 @@
+{
+    "title": "MyActuator X10-T",
+    "price": -1,
+    "stock": 300,
+    "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
+    "blurb": ["Peak torque (Nm)", "Nominal torque (Nm)", "Nominal voltage (V)", "Nominal power (W)"],
+    "specifications": {
+        "Nominal voltage (V)": "48",
+        "Nominal torque (Nm)": 8,
+        "Peak torque (Nm)": 15,
+        "Max speed (rpm)": 445,
+        "Nominal current (A)": 10,
+        "Peak current (A)": 17,
+        "Nominal power (W)": 480,
+        "Resistance (Ω)": 0.045,
+        "Line inductance (H)": 35.5,
+        "Kt (Nm/A)": 1,
+        "Kv (rpm/V)": 11,
+        "Ke (V/rpm)": 0.01,
+        "Repeat accuracy (°)": "±0.01",
+        "Number of pole pairs": 21,
+        "Weight (g)": 1100,
+        "Inertia kg/m²": "5.675",
+        "Size (mm)": "122 x 42.5",
+        "Operating temperature (°C)": "0~50",
+        "Communication": "CAN",
+        "Encoder accuracy (bit)": 18
+    }
+}

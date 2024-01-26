@@ -2,10 +2,11 @@
     "title": "CEM-30",
     "price": -1,
     "stock": 300,
-    "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
+    "description": "Powerful RV reduction actuator for use in legged robots, exoskeletons, and AGVs. The RV reducer is composed of a planetary reduction and a cycloidal reduction.",
     "blurb": ["Nominal torque (Nm)", "Peak torque (Nm)", "Output speed (rpm)", "Peak speed (rpm)", "Nominal voltage (V)"],
     "image": ["assets/img/products/CEM-30/CEM-30-main.jpeg", "assets/img/products/CEM-30/CEM-30-2.png", "assets/img/products/CEM-30/CEM-30-3.jpeg", "assets/img/products/CEM-30/CEM-30-4.jpeg"],
     "specifications": {
+        "Gearing": "Planetary + Cycloidal",
         "Nominal voltage (V)": "24",
         "Rated current (A)": 2.5,
         "Peak current (A)": "5 for <10s",

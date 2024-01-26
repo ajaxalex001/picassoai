@@ -1,5 +1,6 @@
 hand_exo_clinic
 hand_exo_home
+RMD-X10-T
 RMD-X8
 RMD-X8-Pro
 RMD-X6-S2-36:1
