@@ -9,6 +9,7 @@ Picasso-S-2408
 RMD-L-9010
 Picasso-L-5010
 Picasso-L-4010
+RMD-X10-T
 AK10-9-V2
 AK10-9-V1
 AK70-10
@@ -23,7 +24,6 @@ RH-17-100
 RH-20-100
 RH-25-100
 RH-32-100
-RMD-X10-T
 CEM-30
 robot_arm
 mobile_manipulator
