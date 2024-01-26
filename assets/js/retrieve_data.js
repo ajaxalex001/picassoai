@@ -1,3 +1,6 @@
+const noImage = 'assets/img/products/na.png';
+const tempImage = 'assets/img/products/nographic.png';
+
 function getYouTubeVideoId(url) {
     const regex = /(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:[^\/\n\s]+\/\S+\/|(?:v|e(?:mbed)?)\/|\S*?[?&]v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})/i;
     const match = url.match(regex);
@@ -65,7 +68,7 @@ async function fetchData() {
                 preventAutoScroll();
             } else {
                 // Encode the URL to handle spaces
-                const encodedUrl = encodeURIComponent(url);
+                const encodedUrl = encodeURIComponent(url == noImage ? tempImage : url);
         
                 // Create carousel item
                 const carouselItem = document.createElement('div');
