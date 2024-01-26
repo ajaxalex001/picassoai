@@ -7,6 +7,8 @@ const url = new URL(scriptSrc);
 const showParam = url.searchParams.get('show');
 const showList = showParam ? showParam.split(',') : [showAllSymbol];
 
+const noImage = 'assets/img/products/na.png';
+
 async function fetchData(fileName) {
     const response = await fetch(`assets/specdata/${fileName}`);
     const data = await response.json();
@@ -15,7 +17,7 @@ async function fetchData(fileName) {
   }
   
 function generateHTML(data) {
-    const imageSrc = (Array.isArray(data.image) ? data.image[0] : data.image) ?? "assets/img/products/na.png";
+    const imageSrc = (Array.isArray(data.image) ? data.image[0] : data.image) ?? noImage;
     const filterSrc = data.filter ?? 'act';
     if(!showList.includes(showAllSymbol) && !showList.includes(filterSrc)) {
       return;
@@ -35,7 +37,7 @@ function generateHTML(data) {
     const html = `
       <div class="col-lg-4 col-md-6 portfolio-item filter-${filterSrc} dynamically-generated">
         <a href="${actuatorLink}" class="actuator-link"><img src="${imageSrc}" alt="Picture of ${actuatorName}" class="img-fluid custom-border" title="More Details"></a>
-        <div class="portfolio-info ">
+        <div class="portfolio-info ${imageSrc == noImage ? "always-show-portfolio-info" : ""}">
           <h4><a href="${actuatorLink}" class="text-danger actuator-name">${actuatorName}</a></h4>
           <p>${blurb}</p>
         </div>

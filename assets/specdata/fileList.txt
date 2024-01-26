@@ -1,6 +1,5 @@
 hand_exo_clinic
 hand_exo_home
-RMD-X10-T
 RMD-X8
 RMD-X8-Pro
 RMD-X6-S2-36:1
@@ -24,6 +23,7 @@ RH-17-100
 RH-20-100
 RH-25-100
 RH-32-100
+RMD-X10-T
 CEM-30
 robot_arm
 mobile_manipulator

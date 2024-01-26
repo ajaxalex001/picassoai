@@ -14,6 +14,6 @@
         "Weight (kg)": "15",
         "Max load (kg)": "50",
         "Size (mm³)": "L600 x W500 x H300",
-        "Actuators": "4x RMD X10-T"
+        "Actuators": "4x <a href=\"product_specs.html?fileName=RMD-X10-T.json\">RMD X10-T</a>"
     }
 }

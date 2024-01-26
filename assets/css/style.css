@@ -830,6 +830,11 @@ section {
   padding: 15px;
 }
 
+.always-show-portfolio-info {
+  opacity: 1 !important;
+  bottom: 20px !important;
+}
+
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
   color: #fff;
