@@ -5,6 +5,7 @@
     "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
     "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],
     "image": "assets/img/products/AK10-9 V1.jpg",
+    "filter": ["act", "cm"],
     "specifications": {
         "Reduction ratio": "9:1",
         "Nominal voltage (V)": "24/48",

@@ -5,6 +5,7 @@
     "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
     "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],
     "image": "assets/img/products/AK80-9.jpg",
+    "filter": ["act", "cm"],
     "specifications": {
         "Operating temp": "-20°C~50°C",
         "Phase": "Three Phase",

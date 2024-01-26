@@ -4,6 +4,7 @@
     "stock": 300,
     "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
     "blurb": ["Peak torque (Nm)", "Nominal torque (Nm)", "Nominal voltage (V)", "Nominal power (W)"],
+    "filter": ["act", "mact"],
     "specifications": {
         "Nominal voltage (V)": "48",
         "Nominal torque (Nm)": 8,

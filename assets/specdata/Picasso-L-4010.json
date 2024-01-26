@@ -4,6 +4,7 @@
     "stock": 300,
     "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
     "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],
+    "filter": ["act", "pi"],
     "image": "assets/img/products/Picasso-L-4010.png",
     "specifications": {
         "Gear ratio": "Direct drive",

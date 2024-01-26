@@ -18,10 +18,14 @@ async function fetchData(fileName) {
   
 function generateHTML(data) {
     const imageSrc = (Array.isArray(data.image) ? data.image[0] : data.image) ?? noImage;
-    const filterSrc = data.filter ?? 'act';
-    if(!showList.includes(showAllSymbol) && !showList.includes(filterSrc)) {
+
+    const filterList = (Array.isArray(data.filter) ? data.filter : [data.filter ?? 'act']);
+
+    if(!showList.includes(showAllSymbol) && !filterList.some(f => showList.includes(f))) {
       return;
     }
+
+    const filterSrc = filterList.map(f => `filter-${f}`).join(' ');
     const actuatorLink = `product_specs.html?fileName=${data.fileName}`;
     const actuatorName = data.title;
 
@@ -35,7 +39,7 @@ function generateHTML(data) {
     .join('') : data.blurb;
     
     const html = `
-      <div class="col-lg-4 col-md-6 portfolio-item filter-${filterSrc} dynamically-generated">
+      <div class="col-lg-4 col-md-6 portfolio-item ${filterSrc} dynamically-generated">
         <a href="${actuatorLink}" class="actuator-link"><img src="${imageSrc}" alt="Picture of ${actuatorName}" class="img-fluid custom-border" title="More Details"></a>
         <div class="portfolio-info ${imageSrc == noImage ? "always-show-portfolio-info" : ""}">
           <h4><a href="${actuatorLink}" class="text-danger actuator-name">${actuatorName}</a></h4>

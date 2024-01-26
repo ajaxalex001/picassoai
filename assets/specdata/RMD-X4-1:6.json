@@ -4,6 +4,7 @@
     "stock": 210.00,
     "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
     "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],
+    "filter": ["act", "mact"],
     "image": "assets/img/products/RMD-X4-16.png",
     "specifications": {
         "Nominal voltage (V)": 24,
