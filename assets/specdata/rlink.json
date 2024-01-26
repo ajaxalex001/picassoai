@@ -5,7 +5,7 @@
     "description": "USB to serial module for use with AK series actuators",
     "blurb": ["Dimensions (mm³)", "Weight (g)", "Compatibility"],
     "image": ["assets/img/products/rlink/rlink.jpg", "assets/img/products/rlink/rlink1.jpg", "assets/img/products/rlink/rlink2.jpg"],
-    "filter": ["act", "cm"],
+    "filter": ["act", "tm"],
     "specifications": {
         "Dimensions (mm³)": "39x29x10",
         "Weight (g)": 16,

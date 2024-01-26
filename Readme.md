@@ -14,8 +14,8 @@ The json file must have the following attributes:
    - `filter (string/string list) [optional]`: category of the product to be filtered on the main and categorized products page. For backwards compataibly reasons, this field is optional and will default to `act`. The category mappings are as follows: 
         - actuators: `act`
             - Made by Picasso Intelligence: `pi`
-            - Made by MyActuator: `mact`
-            - Made by CubeMars: `cm`
+            - MyActuator: `mact`
+            - T-Motor: `tm`
         - sensors: `sen`
         - controller electronics: `elc`
         - robots: `robo`
