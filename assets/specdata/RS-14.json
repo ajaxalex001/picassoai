@@ -3,9 +3,9 @@
     "price": -1,
     "stock": 300,
     "description": "Harmonic actuator (non-hollow shaft)  for use in legged robots, exoskeletons, and AGVs.",
-    "blurb": [ "Reduction ratio", "Peak torque (Nm)", "Output speed (rpm)",  "Nominal voltage (V)"],
+    "blurb": [ "Gear ratio", "Peak torque (Nm)", "Output speed (rpm)",  "Nominal voltage (V)"],
     "specifications": {
-        "Reduction ratio": "30/50/80/100",
+        "Gear ratio": "30/50/80/100",
         "Nominal voltage (V)": "18-24",
         "Rated current (A)": 2.0,
         "Peak current (A)": "5.10",

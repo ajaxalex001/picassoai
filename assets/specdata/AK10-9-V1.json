@@ -3,11 +3,11 @@
     "price": 868.90,
     "stock": 300,
     "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
-    "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],
+    "blurb": ["Gear ratio", "Nominal torque (Nm)", "Peak torque (Nm)"],
     "image": "assets/img/products/AK10-9 V1.jpg",
     "filter": ["act", "tm"],
     "specifications": {
-        "Reduction ratio": "9:1",
+        "Gear ratio": "9:1",
         "Nominal voltage (V)": "24/48",
         "Nominal torque (Nm)": 15,
         "Peak torque (Nm)": 38,

@@ -3,11 +3,11 @@
     "price": 354.00,
     "stock": 300,
     "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
-    "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],
+    "blurb": ["Gear ratio", "Nominal torque (Nm)", "Nominal power (W)"],
     "filter": ["act", "mact"],
     "image": "assets/img/products/RMD-X6-S2-361.png",
     "specifications": {
-        "Reduction ratio": "36:1",
+        "Gear ratio": "36:1",
         "Nominal voltage (V)": "24~48",
         "No-load speed (rpm)": "90 (24V)",
         "Nominal speed (rpm)": 70,
