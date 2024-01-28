@@ -111,8 +111,6 @@
 
   // Porfolio isotope and filter
   // $(window).on('load', function() { // NOTE: commented out because this script is now run after acutator-generator.js and does not need to wait for the window to load
-    
-  // ETHAN: HERE
   
   var portfolioIsotope = $('.portfolio-container').isotope({
     itemSelector: '.portfolio-item',
@@ -136,8 +134,6 @@
     });
     aos_init();
   });
-
-    // ETHAN: END
 
     // Initiate venobox (lightbox feature used in portofilo)
     $(document).ready(function() {
