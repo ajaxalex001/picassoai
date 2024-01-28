@@ -2,7 +2,7 @@
     "title": "Mobile Manipulator",
     "price": -1,
     "stock": 300,
-    "description": "Four wheel drive automated guided vehicle that can carry a max load of 50 kg.",
+    "description": "Four wheel drive automated guided vehicle that can carry a max load of 50 kg. You can download a step file of the robot <a href=\"assets/other/Mobile Manipulator.step\">here</a>.",
     "blurb": ["Max speed (m/s)", "Max load (kg)",  "Drivetrain"],
     "image": ["assets/img/products/mm/mm-1.png", "assets/img/products/mm/mm-2.png", "assets/img/products/mm/mm-3.png", "assets/img/products/mm/mm-4.png"],
     "filter": "robo",

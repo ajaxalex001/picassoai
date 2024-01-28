@@ -3,7 +3,7 @@
     "price": 122.00,
     "stock": 300,
     "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
-    "blurb": ["Peak torque (Nm)", "Nominal speed (rpm)", "Nominal torque (Nm)", "Reduction ratio", "Nominal voltage (V)"],
+    "blurb": ["Gear ratio", "Nominal torque (Nm)", "Peak torque (Nm)"],
     "filter": ["act", "mact"],
     "image": "assets/img/products/RMD-S-7025.png",
     "specifications": {
