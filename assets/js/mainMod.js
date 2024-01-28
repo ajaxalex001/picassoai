@@ -111,19 +111,33 @@
 
   // Porfolio isotope and filter
   // $(window).on('load', function() { // NOTE: commented out because this script is now run after acutator-generator.js and does not need to wait for the window to load
-    var portfolioIsotope = $('.portfolio-container').isotope({
-      itemSelector: '.portfolio-item'
-    });
+    
+  // ETHAN: HERE
+  
+  var portfolioIsotope = $('.portfolio-container').isotope({
+    itemSelector: '.portfolio-item',
+    layoutMode: 'fitRows'
+  });
 
-    $('#portfolio-flters li').on('click', function() {
-      $("#portfolio-flters li").removeClass('filter-active');
-      $(this).addClass('filter-active');
+  // when an image loads, re-layout the isotope grid
+  let imgs = document.querySelectorAll('.portfolio-container img');
+  for (let i = 0; i < imgs.length; i++) {
+    imgs[i].addEventListener('load', function() {
+      portfolioIsotope.isotope('layout');
+    }, false);
+  }
 
-      portfolioIsotope.isotope({
-        filter: $(this).data('filter')
-      });
-      aos_init();
+  $('#portfolio-flters li').on('click', function() {
+    $("#portfolio-flters li").removeClass('filter-active');
+    $(this).addClass('filter-active');
+
+    portfolioIsotope.isotope({
+      filter: $(this).data('filter')
     });
+    aos_init();
+  });
+
+    // ETHAN: END
 
     // Initiate venobox (lightbox feature used in portofilo)
     $(document).ready(function() {

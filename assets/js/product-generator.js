@@ -55,7 +55,8 @@ async function fetchAndGenerateHTML() {
     try {
         const loadingSpinner = document.querySelector('.loading-spinner');
         loadingSpinner.style.display = 'block';
-
+        
+        // fetch all products
         const response = await fetch('assets/specdata/fileList.txt');
         const text = await response.text();
         const fileNames = text.split('\n').filter(fileName => fileName.trim() !== '').map(fileName => `${fileName.trim()}.json`);
