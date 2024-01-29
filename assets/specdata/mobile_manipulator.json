@@ -10,10 +10,14 @@
         "Nominal torque (Nm)": "2",
         "Nominal power (W)": "200",
         "Max speed (m/s)": "3.0",
-        "Drivetrain": "Four wheel drive",
         "Weight (kg)": "15",
         "Max load (kg)": "50",
         "Size (mm³)": "L600 x W500 x H300",
-        "Actuators": "4x <a href=\"product_specs.html?fileName=RMD-X10-T.json\">RMD X10-T</a>"
+        "Drivetrain": "Four wheel drive",
+        "Drive actuators": "4x <a href=\"product_specs.html?fileName=RMD-X10-T.json\">RMD X10-T</a>",
+        "Actuator voltage (V)": "48",
+        "Actuator torque (Nm)": "8",
+        "Actuator diameter (mm)": "122",
+        "Actuator weight (g)": 1100
     }
 }
