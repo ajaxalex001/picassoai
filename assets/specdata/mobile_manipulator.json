@@ -24,7 +24,9 @@
         {
             "name": "STEP file",
             "ref": "assets/other/Mobile Manipulator.step",
-            "description": "Detailed 3D model of the mobile manipulator compatible with all common CAD software"
+            "description": "Detailed 3D model of the mobile manipulator compatible with all common CAD software",
+            "color": "red",
+            "icon": "bxl-android"
         }
     ]
 }

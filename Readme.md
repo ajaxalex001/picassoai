@@ -19,7 +19,15 @@ The json file must have the following attributes:
         - sensors: `sen`
         - controller electronics: `elc`
         - robots: `robo`
-   - `specifications (list)`: list of actuator attributes to be displayed on the products page
+   - `specifications (object)`: list of actuator attributes to be displayed on the products page
+   - `downloads (object list) [optional]`: list of downloads. If empty or nonexistent, no downloads section will be shown on the page. Each object must have the following attributes:
+        - `name (string)`: name of the download
+        - `ref (string)`: link to the download
+        - `description (string)`: description of the download
+
+        Each object can also have the following optional attributes:
+        - `color (string)`: color of download icon. Possible choices are: blue (default), orange, pink, yellow, red, and teal.
+        - `icon (string)`: icon of download. Possible choices are listed here: `assets/vendor/boxicons/fonts/boxicons.svg` under the `glyph-name` list. The default is `bx-stop-circle`. 
 
 ### Example JSON
 ```
@@ -37,7 +45,14 @@ The json file must have the following attributes:
         "Back drive (Nm)": "0.48",
         "Rated voltage (V)": "24/48",
         "Rated torque (Nm)": "0.83",
-    }
+    },
+    "downloads": [
+        {
+            "name": "Images",
+            "ref": "assets/other/AK10-9-V2.zip",
+            "description": "High quality pictures of the AK10-9 V2"
+        }
+    ]
 }
 ```
 
