@@ -1,0 +1,32 @@
+{
+    "title": "High-Payload Mobile Robot",
+    "price": -1,
+    "stock": 300,
+    "description": "Four wheel drive automated guided vehicle that can carry a max load of 50 kg.",
+    "blurb": ["Max speed (m/s)", "Max load (kg)",  "Drivetrain"],
+    "image": ["assets/img/products/hpmr/hpmr-1.png", "assets/img/products/hpmr/hpmr-2.png", "assets/img/products/hpmr/hpmr-3.png", "assets/img/products/hpmr/hpmr-4.png"],
+    "filter": "robo",
+    "specifications": {
+        "Nominal torque (Nm)": "2",
+        "Nominal power (W)": "200",
+        "Max speed (m/s)": "3.0",
+        "Weight (kg)": "15",
+        "Max load (kg)": "50",
+        "Size (mm³)": "L600 x W500 x H300",
+        "Drivetrain": "Four wheel drive",
+        "Drive actuators": "4x <a href=\"product_specs.html?fileName=RMD-X10-T.json\">RMD X10-T</a>",
+        "Actuator voltage (V)": "48",
+        "Actuator torque (Nm)": "8",
+        "Actuator diameter (mm)": "122",
+        "Actuator weight (g)": 1100
+    },
+    "downloads": [
+        {
+            "name": "STEP file",
+            "ref": "assets/other/High-Payload Mobile Robot.step",
+            "description": "Detailed 3D model of the high-payload mobile robot compatible with all common CAD software",
+            "color": "green",
+            "icon": "bxl-android"
+        }
+    ]
+}
