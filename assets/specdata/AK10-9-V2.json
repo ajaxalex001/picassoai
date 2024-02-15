@@ -33,5 +33,14 @@
         "Outer ring encoder type": "Magnetic encoder",
         "Outer ring encoder resolution": "15bit",
         "Number of encoders": 2
-    }
+    }, 
+    "downloads": [
+        {
+            "name": "STEP file",
+            "ref": "assets/other/AK10-9V2.STEP",
+            "description": "Detailed 3D model of the AK10-9 V2 compatible with all common CAD software",
+            "color": "green",
+            "icon": "bx-stop-circle"
+        }
+    ]
 }
