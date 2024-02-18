@@ -1,0 +1,28 @@
+{
+    "title": "Soft Back Support Exosuit",
+    "price": -1,
+    "stock": 300,
+    "description": "Lightweight, soft exosuit designed for assisting back muscles during bending, leaning, stooping, squatting, or lifting.",
+    "blurb": ["Weight (kg)", "Max force (kgf)", "Materials"],
+    "image": ["assets/img/products/soft-back-exo/back-exo-1.png", "assets/img/products/soft-back-exo/back-exo-2.png", "assets/img/products/soft-back-exo/back-exo-3.png", "assets/img/products/soft-back-exo/back-exo-4.png"],
+    "filter": ["exo"],
+    "specifications": {
+        "Max body weight (kg)": 100,
+        "Height range (cm)": "165-190",
+        "Weight (kg)": 0.75,
+        "Max force (kgf)": 21,
+        "Materials": "Fabric, elastic",
+        "Strap locations": "Shoulder, back, thigh",
+        "Protection cover": "Yes",
+        "Auxiliary bands": "3x"
+    },
+    "downloads": [
+        {
+            "name": "Product brochure",
+            "icon": "bx-file",
+            "color": "red",
+            "ref": "assets/other/back-support-exo.pdf",
+            "description": "Full product broshure for the soft back support exosuit"
+        }
+    ]
+}
