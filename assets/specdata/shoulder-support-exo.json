@@ -1,0 +1,27 @@
+{
+    "title": "Shoulder Support Exosuit",
+    "price": -1,
+    "stock": 300,
+    "description": "Shoulder exosuit designed for repetitive, overhead working conditions.",
+    "blurb": ["Product weight (kg)", "Max force (kgf)", "Materials"],
+    "image": ["assets/img/products/shoulder-support-exo/shoulder-exo-1.png", "assets/img/products/shoulder-support-exo/shoulder-exo-2.png", "assets/img/products/shoulder-support-exo/shoulder-exo-3.png", "assets/img/products/shoulder-support-exo/shoulder-exo-4.png", "assets/img/products/shoulder-support-exo/shoulder-exo-5.png"],
+    "filter": ["exo"],
+    "specifications": {
+        "Body weight range (kg)": "45-100",
+        "Height range (cm)": "165-195",
+        "Product weight (kg)": 2.3,
+        "Max force (kgf)": 21,
+        "Materials": "Carbon fiber, aluminium",
+        "Powered": "No",
+        "Mounting locations": "Shoulder, arm sleeve, hip clamp"
+    },
+    "downloads": [
+        {
+            "name": "Product brochure",
+            "icon": "bx-file",
+            "color": "red",
+            "ref": "assets/other/shoulder-support-exo.pdf",
+            "description": "Full product broshure for the soft back support exosuit"
+        }
+    ]
+}

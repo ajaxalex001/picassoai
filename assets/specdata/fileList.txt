@@ -1,4 +1,5 @@
 back-support-exo
+shoulder-support-exo
 hand_exo_clinic
 hand_exo_home
 RMD-X8
