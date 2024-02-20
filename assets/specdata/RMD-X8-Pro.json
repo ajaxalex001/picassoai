@@ -1,6 +1,6 @@
 {
     "title": "MyActuator RMD X8-Pro",
-    "price": 394.00,
+    "price": -1,
     "stock": 300,
     "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
     "blurb": ["Gear ratio", "Nominal torque (Nm)", "Nominal power (W)"],

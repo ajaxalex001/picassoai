@@ -1,6 +1,6 @@
 {
     "title": "Picasso-S-2408",
-    "price": 33.90,
+    "price": -1,
     "stock": 300,
     "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
     "blurb": ["Gear ratio", "Nominal torque (Nm)", "Peak torque (Nm)"],

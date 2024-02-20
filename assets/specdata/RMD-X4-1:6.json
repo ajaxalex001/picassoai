@@ -1,7 +1,7 @@
 {
     "title": "MyActuator RMD-X4-1:6",
     "price": -1,
-    "stock": 210.00,
+    "stock": 300,
     "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
     "blurb": ["Gear ratio", "Nominal torque (Nm)", "Nominal power (W)"],
     "filter": ["act", "mact"],

@@ -1,6 +1,6 @@
 {
     "title": "MyActuator RMD -L-9010",
-    "price": 170.00,
+    "price": -1,
     "stock": 300,
     "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
     "blurb": ["Gear ratio", "Nominal torque (Nm)", "Peak torque (Nm)"],
