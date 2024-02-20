@@ -3,10 +3,11 @@
     "price": -1,
     "stock": 300,
     "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs. Full spec sheet available <a href='assets/specfiles/RMD-X10-T.pdf' target='_blank'>here</a>.",
-    "blurb": ["Gear ratio", "Nominal torque (Nm)", "Peak torque (Nm)"],
+    "blurb": ["Nominal voltage (V)", "Nominal torque (Nm)", "Peak torque (Nm)"],
     "filter": ["act", "mact"],
     "image": [ "assets/img/products/RMD-X10-T/RMD-X10-T-1.png", "assets/img/products/RMD-X10-T/RMD-X10-T-2.png", "assets/img/products/RMD-X10-T/RMD-X10-T-3.png"],
     "specifications": {
+        "Gear ratio": "1:50",
         "Nominal voltage (V)": "48",
         "Nominal torque (Nm)": 8,
         "Peak torque (Nm)": 15,
@@ -27,5 +28,20 @@
         "Operating temperature (°C)": "0~50",
         "Communication": "CAN",
         "Encoder accuracy (bit)": 18
-    }
+    },
+    "downloads": [
+        {
+            "name": "Datasheet",
+            "icon": "bx-file",
+            "color": "red",
+            "ref": "assets/other/RMD-X10-T-datasheet.pdf",
+            "description": "Full datasheet for the RMD X10-T actuator"
+        },
+        {
+            "name": "STEP file",
+            "ref": "assets/other/RMD-X10-T.step",
+            "description": "Detailed 3D model of the RMD X10-T compatible with all common CAD software",
+            "color": "red"
+        }
+    ]
 }
