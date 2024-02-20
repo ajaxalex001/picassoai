@@ -4,6 +4,7 @@
     "stock": 300,
     "description": "Harmonic actuator (non-hollow shaft) for use in legged robots, exoskeletons, and AGVs.",
     "blurb": [ "Gear ratio", "Peak torque (Nm)", "Output speed (rpm)",  "Nominal voltage (V)"],
+    "image": "assets/img/products/RS-20.png",
     "specifications": {
         "Gear ratio": "30/50/80/100",
         "Nominal voltage (V)": "36-48",
