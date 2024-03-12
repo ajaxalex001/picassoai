@@ -19,5 +19,13 @@
         "Size (mm)": "D76 x 85",
         "Weight (g)": 730,
         "Communication": "CAN"
-    }
+    },
+    "downloads": [
+        {
+            "name": "SOLIDWORKS files",
+            "ref": "assets/other/CEM30.zip",
+            "description": "Detailed 3D model of the CEM-30 compatible with SOLIDWORKS",
+            "color": "green"
+        }
+    ]
 }
