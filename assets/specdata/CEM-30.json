@@ -1,10 +1,11 @@
 {
-    "title": "CEM-30",
+    "title": "CEM30 (Cycloidal actuator): Brushless DC Motor High Torque Rated Torque 30 Nm",
     "price": -1,
     "stock": 300,
-    "description": "Powerful RV reduction actuator for use in legged robots, exoskeletons, and AGVs. The RV reducer is composed of a planetary reduction and a cycloidal reduction.",
+    "description": "The CEM30 is a new brushless DC motor with torque up to 30Nm. Its advanced cycloidal design ensures that the actuator is powerful, lightweight, and compact. The CEM30 is ideal for applications that require high torque in a small package, such as robotics arms. The CEM30's CAN bus also provides ultra-fast, low-latency communication, making it the perfect actuator for high-performance applications.",
     "blurb": ["Gearing", "Nominal torque (Nm)", "Peak torque (Nm)"],
-    "image": ["assets/img/products/CEM-30/CEM-30-main.jpeg", "assets/img/products/CEM-30/CEM-30-2.png", "assets/img/products/CEM-30/CEM-30-3.jpeg", "assets/img/products/CEM-30/CEM-30-4.jpeg"],
+    "image": ["assets/img/products/CEM-30/CEM-30-main.jpeg", "assets/img/products/CEM-30/CEM-30-2.png", "assets/img/products/CEM-30/CEM-30-3.jpeg", "assets/img/products/CEM-30/CEM-30-4.webp", "assets/img/products/CEM-30/CEM-30-5.webp", "assets/img/products/CEM-30/CEM-30-6.png", "assets/img/products/CEM-30/CEM-30-7.webp", "assets/img/products/CEM-30/CEM-30-8.jpeg"],
+    "filter": ["act", "mact"],
     "specifications": {
         "Gearing": "RV (Planetary, cycloidal)",
         "Nominal voltage (V)": "24",
@@ -24,13 +25,13 @@
         {
             "name": "STEP file",
             "ref": "assets/other/CEM30-step.STEP",
-            "description": "Detailed 3D model of the CEM-30 compatible with all common CAD software",
+            "description": "Detailed 3D model of the CEM30 compatible with all common CAD software",
             "color": "blue"
         },
         {
             "name": "SOLIDWORKS files",
             "ref": "assets/other/CEM30.zip",
-            "description": "Detailed 3D model of the CEM-30 optimized for SOLIDWORKS",
+            "description": "Detailed 3D model of the CEM30 optimized for SOLIDWORKS",
             "color": "red"
         }
     ]

@@ -2,6 +2,7 @@ back-support-exo
 shoulder-support-exo
 hand_exo_clinic
 hand_exo_home
+CEM-30
 RMD-X8
 RMD-X8-Pro
 RMD-X6-S2-36:1
@@ -12,11 +13,6 @@ RMD-L-9010
 Picasso-L-5010
 Picasso-L-4010
 RMD-X10-T
-AK10-9-V2
-AK10-9-V1
-AK70-10
-AK80-8
-AK80-9
 RS-14
 RS-17
 RS-20
@@ -26,8 +22,12 @@ RH-17-100
 RH-20-100
 RH-25-100
 RH-32-100
+AK10-9-V2
+AK10-9-V1
+AK70-10
+AK80-8
+AK80-9
 rlink
-CEM-30
 robot_arm
 mobile_manipulator
 high_payload_mobile_robot

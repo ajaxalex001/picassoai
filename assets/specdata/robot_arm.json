@@ -2,7 +2,7 @@
     "title": "6 DOF Collaborative Robot",
     "price": 6000,
     "stock": 300,
-    "description": "Collaborative Robot with six degress of freedom. See it in action <a href=https://www.youtube.com/watch?v=RjQzh3F6EL0 target='_blank'>here</a>. The CEM-30 actuators provide precise and powerful control. More details on the CEM-30 actuator can be found <a href=\"https://picassointelligence.com/product_specs.html?fileName=CEM-30.json\">here</a>.",
+    "description": "This all-new collaborative robot arm is perfect for advanced applications that require high torque, high accuracy, or both. It comes equipped with state-of-the-art CEM30 actuators boasting six degrees of freedom. The CEM30 actuators are chosen for their ability to deliver powerful, precise control within a sleek, compact design. The arm itself is crafted from premium aviation-grade aluminum to ensure durability and reliability. See it in action <a href=https://www.youtube.com/watch?v=RjQzh3F6EL0 target='_blank'>here</a>. More details on the CEM-30 actuator can be found <a href=\"https://picassointelligence.com/product_specs.html?fileName=CEM-30.json\">here</a>.",
     "blurb": ["Degrees of freedom", "Nominal load (kg)", "Maximum power (W)", "Actuators"],
     "image": ["assets/img/products/robot-arm/robot-arm.png", "https://www.youtube.com/watch?v=RjQzh3F6EL0", "assets/img/products/robot-arm/robot-arm-2.jpg", "assets/img/products/robot-arm/robot-arm-3.jpg","assets/img/products/robot-arm/robot-arm-4.jpg","assets/img/products/robot-arm/robot-arm-5.jpg","assets/img/products/robot-arm/robot-arm-6.jpg","assets/img/products/robot-arm/robot-arm-7.jpg"],
     "filter": "robo",
