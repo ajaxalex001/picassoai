@@ -22,10 +22,16 @@
     },
     "downloads": [
         {
+            "name": "STEP file",
+            "ref": "assets/other/CEM30-step.STEP",
+            "description": "Detailed 3D model of the CEM-30 compatible with all common CAD software",
+            "color": "blue"
+        },
+        {
             "name": "SOLIDWORKS files",
             "ref": "assets/other/CEM30.zip",
-            "description": "Detailed 3D model of the CEM-30 compatible with SOLIDWORKS",
-            "color": "green"
+            "description": "Detailed 3D model of the CEM-30 optimized for SOLIDWORKS",
+            "color": "red"
         }
     ]
 }
