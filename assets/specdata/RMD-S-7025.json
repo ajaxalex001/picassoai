@@ -5,8 +5,9 @@
     "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
     "blurb": ["Gear ratio", "Nominal torque (Nm)", "Peak torque (Nm)"],
     "filter": ["act", "mact"],
-    "image": "assets/img/products/RMD-S-7025.png",
+    "image": ["assets/img/products/RMD-S-7025/RMD-S-7025.png","assets/img/products/RMD-S-7025/2.png","assets/img/products/RMD-S-7025/3.png","assets/img/products/RMD-S-7025/4.png"],
     "specifications": {
+        "Gear ratio": "Direct drive",
         "Nominal voltage (V)": 24,
         "Voltage range (V)": "8~30",
         "Nominal current (A)": 1.80,
@@ -22,6 +23,7 @@
         "Line resistance (Ω)": 5.50,
         "Phase to phase inductance (mH)": 7.6,
         "Rotor inertia (gcm²)": 1040,
+        "Size (mm)": "D69x46",
         "Weight (g)": 540,
         "Working temperature (°C)": "-20~80",
         "Communication": "RS-485/CAN BUS",
