@@ -17,7 +17,7 @@
         "Nominal power (W)": 122.4,
         "Diameter (mm)": 90,
         "Height (mm)": 75,
-        "Size with brake (mm)": "D90 x 89.5",
+        "Height with brake (mm)": 89.5,
         "Weight (g)": 1295,
         "Weight with brake (g)": 1640,
         "Communication": "CAN",
