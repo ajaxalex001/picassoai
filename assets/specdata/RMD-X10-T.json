@@ -24,7 +24,8 @@
         "Number of pole pairs": 21,
         "Weight (g)": 1100,
         "Inertia kg/m²": "5.675",
-        "Size (mm)": "122 x 42.5",
+        "Diameter (mm)": 122,
+        "Height (mm)": 42.5,
         "Operating temperature (°C)": "0~50",
         "Communication": "CAN",
         "Encoder accuracy (bit)": 18

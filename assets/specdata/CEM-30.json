@@ -17,7 +17,8 @@
         "Output speed (rpm)": 15,
         "Peak speed (rpm)": 20,
         "Repeat positioning accuracy": 0.01,
-        "Size (mm)": "D76 x 85",
+        "Diameter (mm)": 76,
+        "Height (mm)": 85,
         "Weight (g)": 730,
         "Communication": "CAN"
     },

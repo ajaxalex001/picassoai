@@ -15,7 +15,8 @@
         "Peak torque (Nm)": "48.0 for <10s",
         "Output speed (rpm)": 30,
         "Nominal power (W)": 91.2,
-        "Size (mm)": "D70 x 67",
+        "Diameter (mm)": 70,
+        "Height (mm)": 67,
         "Weight (g)": 390,
         "Communication": "CAN"
     }
