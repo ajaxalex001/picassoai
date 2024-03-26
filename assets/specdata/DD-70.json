@@ -1,0 +1,49 @@
+{
+    "title": "DD-70",
+    "price": -1,
+    "stock": 300,
+    "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
+    "blurb": ["Gear ratio", "Peak speed (rpm)", "Peak torque (Nm)"],
+    "filter": ["act", "pi"],
+    "image": ["assets/img/products/DD-70.png", "assets/img/products/DD-70-tech.png"],
+    "specifications": {
+        "Gear ratio": "Direct drive",
+        "Nominal voltage (V)": 24,
+        "Nominal current (A)": "8.0",
+        "Peak current (A)": "15",
+        "Nominal power (W)": 200,
+        "Nominal torque (Nm)": 1.6,
+        "Peak torque (Nm)": 9.4,
+        "Torque constant (Nm/A)": 0.19,
+        "Nominal speed (rpm)": 1500,
+        "Peak speed (rpm)": 1890,
+        "Speed constant (rpm/V)": 79,
+        "Line resistance (Ω)": 0.28,
+        "Phase to phase inductance (mH)": 0.24,
+        "Turns": 10,
+        "Number of pole pairs": 14,
+        "Rotor inertia (gcm²)": 933,
+        "Diameter (mm)": 69,
+        "Height (mm)": 46,
+        "Weight (g)": 360,
+        "Working temperature (°C)": "-20~80",
+        "Max demagnetized temperature (°C)": 120,
+        "Communication": "CAN, RS-485",
+        "Baud rate (CAN)": "2kHz (1Mbps)",
+        "Baud rate (RS-485)": "115200bps:500hz",
+        "Encoder": "14-bit magnetic encoder",
+        "Connector": "ZH1.5/8PIN",
+        "Drive type": "MC200",
+        "Control modes": "Torque (24kHz), speed (8kHz), position (4kHz)",
+        "Acceleration curve": "Yes",
+        "ID switch": "Yes",
+        "Temperature sensor": "Yes"
+    },
+    "downloads": [
+        {
+            "name": "STEP file",
+            "ref": "assets/other/DD-70.step",
+            "description": "Detailed 3D model of the DD-70 compatible with all common CAD software"
+        }
+    ]
+}

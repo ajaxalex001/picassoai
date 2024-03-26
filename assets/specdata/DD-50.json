@@ -1,0 +1,47 @@
+{
+    "title": "DD-50",
+    "price": -1,
+    "stock": 300,
+    "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
+    "blurb": ["Gear ratio", "Peak speed (rpm)", "Peak torque (Nm)"],
+    "filter": ["act", "pi"],
+    "image": ["assets/img/products/DD-50.png", "assets/img/products/DD-50-tech.png"],
+    "specifications": {
+        "Gear ratio": "Direct drive",
+        "Nominal voltage (V)": 16,
+        "Voltage range (V)": "8~24",
+        "Nominal current (A)": 4.9,
+        "Peak current (A)": 8,
+        "Nominal power (W)": 100,
+        "Nominal torque (Nm)": 0.38,
+        "Peak torque (Nm)": 0.7,
+        "Torque constant (Nm/A)": 0.08,
+        "Nominal speed (rpm)": 1550,
+        "Peak speed (rpm)": 2040,
+        "Speed constant (rpm/V)": 128,
+        "Line resistance (Ω)": 0.48,
+        "Phase to phase inductance (mH)": 0.19,
+        "Number of pole pairs": 14,
+        "Rotor inertia (gcm²)": 268,
+        "Diameter (mm)": 49,
+        "Height (mm)": 33.9,
+        "Weight (g)": 174,
+        "Working temperature (°C)": "-20~80",
+        "Max demagnetized temperature (°C)": 120,
+        "Control precision (°)": 0.001,
+        "Communication": "CAN, RS-485",
+        "Baud rate (CAN)": "1M",
+        "Baud rate (RS-485)": "115200/500k/1M/2.5M",
+        "Encoder": "18-bit magnetic encoder",
+        "Drive type": "MC100",
+        "Control modes": "Torque/current, speed, position",
+        "Acceleration curve": "Yes"
+    },
+    "downloads": [
+        {
+            "name": "STEP file",
+            "ref": "assets/other/DD-50.step",
+            "description": "Detailed 3D model of the DD-50 compatible with all common CAD software"
+        }
+    ]
+}

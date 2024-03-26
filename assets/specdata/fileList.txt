@@ -3,6 +3,8 @@ shoulder-support-exo
 hand_exo_clinic
 hand_exo_home
 CEM-30
+DD-50
+DD-70
 RMD-X8
 RMD-X8-Pro
 RMD-X6-S2-36:1
