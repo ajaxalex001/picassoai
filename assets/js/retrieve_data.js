@@ -1,5 +1,6 @@
 const noImage = 'assets/img/products/na.png';
 const tempImage = 'assets/img/products/nographic.png';
+const videoExtensions = ['mp4', 'mov'];
 
 function getYouTubeVideoId(url) {
     const regex = /(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:[^\/\n\s]+\/\S+\/|(?:v|e(?:mbed)?)\/|\S*?[?&]v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})/i;
@@ -41,6 +42,7 @@ async function fetchData() {
         imageUrls.forEach(function (url, index) {
             const isActive = index === 0;
         
+            // FIXME: reduce duplicated code here
             // Check if the imageUrl contains "youtube.com"
             if (url.includes("youtube.com")) {
                 // Extract the video ID from the YouTube URL
@@ -66,6 +68,29 @@ async function fetchData() {
                 carouselInner.appendChild(carouselItem);
 
                 preventAutoScroll();
+            } else if (videoExtensions.some(ext => url.endsWith(ext))) {
+                // Create a video element for the video file
+                const video = document.createElement('video');
+                video.src = url;
+                video.style.width = '90%';
+                video.style.height = '90%';
+                video.style.border = 'none';
+                video.loop = true;
+                video.controls = true;
+        
+                // Create carousel item
+                const carouselItem = document.createElement('div');
+                carouselItem.className = 'carousel-item' + (isActive ? ' active' : '');
+
+                carouselItem.style.display = 'flex';
+                carouselItem.style.justifyContent = 'center';
+                carouselItem.style.alignItems = 'center';
+
+                carouselItem.appendChild(video);
+                carouselInner.appendChild(carouselItem);
+
+                preventAutoScroll();
+
             } else {
                 // Encode the URL to handle spaces
                 const encodedUrl = encodeURIComponent(url == noImage ? tempImage : url);

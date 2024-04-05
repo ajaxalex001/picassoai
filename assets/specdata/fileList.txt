@@ -30,6 +30,7 @@ AK70-10
 AK80-8
 AK80-9
 rlink
+motorized_fin-ray_gripper
 robot_arm
 mobile_manipulator
 high_payload_mobile_robot

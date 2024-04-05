@@ -1,0 +1,12 @@
+{
+    "title": "Motorized Fin-Ray Gripper",
+    "price": -1,
+    "stock": 300,
+    "description": "The motorized fin-ray gripper comes in an assortment of configurations and is easily attachable to robotics arms. It provides precise and reliable control and is perfect for a wide range of applications.",
+    "blurb": ["Degrees of freedom", "Nominal load (kg)", "Maximum power (W)", "Actuators"],
+    "image": ["assets/img/products/gripper/gripper-1.png", "assets/img/products/gripper/gripper-2.png", "assets/img/products/gripper/gripper-3.png", "assets/img/products/gripper/gripper-vid.mp4"],
+    "filter": "robo",
+    "specifications": {
+       
+    }
+}
