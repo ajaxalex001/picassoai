@@ -2,14 +2,14 @@
     "title": "MyActuator RMD X8-Pro",
     "price": -1,
     "stock": 300,
-    "description": "Powerful actuator for use in legged robots, exoskeletons, and AGVs.",
+    "description": "The MyActuator RMD X8-Pro is a high-performance actuator designed specifically for performance-demanding applications. Despite weighing only 710g and at an impressively thin 49mm, The X8-Pro comes with 13Nm of torque and can support a radial load of 1250N. This is perfect for robotics, where low weight and high torque are must-haves. <br><br> The X8-Pro's IP54 rating ensures that the internals are protected from dust and water in challenging environments. Dust will not affect the operation of the actuator and the housing protects the internals from both water sprays and splashes. <br><br> Equipped with three control modes - torque, velocity, and position - the X8-Pro offers precise and consistent control via the high-speed CAN bus. The 16-bit magnetic encoder ensures that feedback from the actuator is precise and reliable. <br><br> Whether it's navigating complex robotic tasks or any other demanding application, the X8-Pro excels in delivering performance, reliability, and versatility.  <br> <br> <b> Key Features </b> <br> <ul> <li> 9:1 high torque gear ratio</li> <li> Variable input voltage from 24V to 48V </li> <li> High resolution 16-bit magnetic encoder</li> <li> IP54 rating for tough conditions</li>  </ul> ",
     "blurb": ["Gear ratio", "Nominal torque (Nm)", "Nominal power (W)"],
     "filter": ["act", "mact"],
-    "image": "assets/img/products/RMD X8 Pro.png",
+    "image": ["assets/img/products/RMD X8 Pro.png", "assets/img/products/X8-Pro-2.png", "assets/img/products/X8-Pro-3.png", "assets/img/products/X8-Pro-4.png", "assets/img/products/X8-Pro-5.png"],
     "specifications": {
         "Gear ratio": "9:1",
         "Nominal voltage (V)": "24-48",
-        "No-load speed (rpm)": "160 @48V",
+        "No-load speed (rpm)": "160 @ 48V",
         "Nominal speed (rpm)": 122,
         "Nominal current (A)": 5,
         "Nominal power (W)": 166,
@@ -19,9 +19,20 @@
         "Phase to phase inductance (mH)": 0.28,
         "Speed constant (rpm/V)": 30,
         "Torque constant (N.M/A)": 2.6,
+        "Number of pole pairs": 21,
+        "Backlash (arc min)": 5,
+        "Radial load (N)": 1250,
+        "Axial load (N)": 985,
         "Rotor inertia (gcm²)": 3400,
+        "Diameter (mm)": 98,
+        "Height (mm)": 49,
         "Weight (g)": 710,
-        "Operating temperature (°C)": "-20~55"
+        "Operating temperature (°C)": "-20~55",
+        "IP Rating": "IP54",
+        "Drive": "MC X 300O",
+        "Communication": "CAN",
+        "Control modes": "Torque/current, velocity, position",
+        "Encoder": "16-bit magnetic"
       }
       
 }

@@ -2535,3 +2535,9 @@ section {
   border-radius: 10px;
   border: 1px solid rgba(210, 210, 210, 0.5);
 }
+
+.quote-and-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
