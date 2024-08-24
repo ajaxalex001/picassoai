@@ -2,7 +2,7 @@
     "title": "Omni Arm-3",
     "price": 6000,
     "stock": 300,
-    "description": "This all-new collaborative robot arm is perfect for advanced applications that require high torque, high accuracy, or both. It comes equipped with state-of-the-art CEM30 actuators boasting six degrees of freedom. The CEM30 actuators are chosen for their ability to deliver powerful, precise control within a sleek, compact design. The arm itself is crafted from premium aviation-grade aluminum to ensure durability and reliability. See it in action <a href=https://www.youtube.com/watch?v=RjQzh3F6EL0 target='_blank'>here</a>. More details on the CEM-30 actuator can be found <a href=\"https://picassointelligence.com/product_specs.html?fileName=CEM-30.json\">here</a>.",
+    "description": "This lightweight and high torque-density collaborative robot arm is perfect for advanced applications that require high torque, high accuracy, or both. It comes equipped with state-of-the-art CEM30 actuators boasting six degrees of freedom. The Rotary Vector (RV)-30 Nm actuators are chosen for their ability to deliver powerful, precise control within a sleek, compact design. The arm itself is crafted from premium aviation-grade aluminum to ensure durability and reliability. See it in action <a href=https://www.youtube.com/watch?v=RjQzh3F6EL0 target='_blank'>here</a>. More details on the CEM-30 actuator can be found <a href=\"https://picassointelligence.com/product_specs.html?fileName=CEM-30.json\">here</a>.",
     "blurb": ["Degrees of freedom", "Nominal load (kg)", "Maximum power (W)", "Actuators"],
     "image": ["assets/img/products/robot-arm/robot-arm.png", "https://www.youtube.com/watch?v=RjQzh3F6EL0", "assets/img/products/robot-arm/robot-arm-2.jpg", "assets/img/products/robot-arm/robot-arm-3.jpg","assets/img/products/robot-arm/robot-arm-4.jpg","assets/img/products/robot-arm/robot-arm-5.jpg","assets/img/products/robot-arm/robot-arm-6.jpg","assets/img/products/robot-arm/robot-arm-7.jpg"],
     "filter": ["robo", "pi"],
@@ -10,8 +10,8 @@
         "Degrees of freedom": 6,
         "Nominal load (kg)": 3.0,
         "Working radius (mm)": 630,
-        "Joint maximum angular velcoity (deg/s)": 120,
-        "Terminal maximum linear spead (m/s)": 1.3,
+        "Joint maximum angular velocity (deg/s)": 120,
+        "Terminal maximum linear speed (m/s)": 1.3,
         "Range of motion [J1]": "±360°",
         "Range of motion [J2]": "±180°",
         "Range of motion [J3]": "±150°",
@@ -29,6 +29,6 @@
         "Weight (kg)": 6.5,
         "Control mode": "WOSC@802.11b/g/n or CAN",
         "Material": "Aviation grade aluminum alloy, composite polymer",
-        "Actuators": "6x CEM-30"
+        "Actuators": "Six x Rotary Vector (RV)-30 actuators"
     }
 }
